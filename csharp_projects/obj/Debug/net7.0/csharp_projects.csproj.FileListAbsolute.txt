@@ -1,0 +1,14 @@
+C:\Users\bened\Desktop\internship\csharp_projects\bin\Debug\net7.0\csharp_projects.exe
+C:\Users\bened\Desktop\internship\csharp_projects\bin\Debug\net7.0\csharp_projects.deps.json
+C:\Users\bened\Desktop\internship\csharp_projects\bin\Debug\net7.0\csharp_projects.runtimeconfig.json
+C:\Users\bened\Desktop\internship\csharp_projects\bin\Debug\net7.0\csharp_projects.dll
+C:\Users\bened\Desktop\internship\csharp_projects\bin\Debug\net7.0\csharp_projects.pdb
+C:\Users\bened\Desktop\internship\csharp_projects\obj\Debug\net7.0\csharp_projects.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bened\Desktop\internship\csharp_projects\obj\Debug\net7.0\csharp_projects.AssemblyInfoInputs.cache
+C:\Users\bened\Desktop\internship\csharp_projects\obj\Debug\net7.0\csharp_projects.AssemblyInfo.cs
+C:\Users\bened\Desktop\internship\csharp_projects\obj\Debug\net7.0\csharp_projects.csproj.CoreCompileInputs.cache
+C:\Users\bened\Desktop\internship\csharp_projects\obj\Debug\net7.0\csharp_projects.dll
+C:\Users\bened\Desktop\internship\csharp_projects\obj\Debug\net7.0\refint\csharp_projects.dll
+C:\Users\bened\Desktop\internship\csharp_projects\obj\Debug\net7.0\csharp_projects.pdb
+C:\Users\bened\Desktop\internship\csharp_projects\obj\Debug\net7.0\csharp_projects.genruntimeconfig.cache
+C:\Users\bened\Desktop\internship\csharp_projects\obj\Debug\net7.0\ref\csharp_projects.dll
