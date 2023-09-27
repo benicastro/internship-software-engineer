@@ -1,0 +1,14 @@
+C:\Users\bened\Desktop\internship\w1-w2-c#\bin\Debug\net7.0\w1-w2-c#.exe
+C:\Users\bened\Desktop\internship\w1-w2-c#\bin\Debug\net7.0\w1-w2-c#.deps.json
+C:\Users\bened\Desktop\internship\w1-w2-c#\bin\Debug\net7.0\w1-w2-c#.runtimeconfig.json
+C:\Users\bened\Desktop\internship\w1-w2-c#\bin\Debug\net7.0\w1-w2-c#.dll
+C:\Users\bened\Desktop\internship\w1-w2-c#\bin\Debug\net7.0\w1-w2-c#.pdb
+C:\Users\bened\Desktop\internship\w1-w2-c#\obj\Debug\net7.0\w1-w2-c#.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bened\Desktop\internship\w1-w2-c#\obj\Debug\net7.0\w1-w2-c#.AssemblyInfoInputs.cache
+C:\Users\bened\Desktop\internship\w1-w2-c#\obj\Debug\net7.0\w1-w2-c#.AssemblyInfo.cs
+C:\Users\bened\Desktop\internship\w1-w2-c#\obj\Debug\net7.0\w1-w2-c#.csproj.CoreCompileInputs.cache
+C:\Users\bened\Desktop\internship\w1-w2-c#\obj\Debug\net7.0\w1-w2-c#.dll
+C:\Users\bened\Desktop\internship\w1-w2-c#\obj\Debug\net7.0\refint\w1-w2-c#.dll
+C:\Users\bened\Desktop\internship\w1-w2-c#\obj\Debug\net7.0\w1-w2-c#.pdb
+C:\Users\bened\Desktop\internship\w1-w2-c#\obj\Debug\net7.0\w1-w2-c#.genruntimeconfig.cache
+C:\Users\bened\Desktop\internship\w1-w2-c#\obj\Debug\net7.0\ref\w1-w2-c#.dll
