@@ -213,5 +213,18 @@
 // Console.WriteLine($"{course5Name}\t\t{course5Grade}\t\t{course5Credit}\n");
 // Console.WriteLine($"Final GPA:\t\t{leadingDigit}.{firstDigit}{secondDigit}");
 
-decimal x = 7 / 5;
-Console.WriteLine(x);
+// decimal x = 7 / 5;
+// Console.WriteLine(x);
+
+using System;
+
+namespace HelloWorld
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      Console.WriteLine("Hello World!");    
+    }
+  }
+}
