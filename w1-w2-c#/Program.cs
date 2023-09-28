@@ -216,15 +216,43 @@
 // decimal x = 7 / 5;
 // Console.WriteLine(x);
 
-using System;
+// using System;
 
-namespace HelloWorld
-{
-  class Program
-  {
-    static void Main(string[] args)
-    {
-      Console.WriteLine("Hello World!");    
-    }
-  }
-}
+// namespace HelloWorld
+// {
+//   class Program
+//   {
+//     static void Main(string[] args)
+//     {
+//       Console.WriteLine("Hello World!");    
+//     }
+//   }
+// }
+// using System;
+
+// namespace MyApplication
+// {
+//   class Program
+//   {
+//     static void Main(string[] args)
+//     {
+//       int i = 0;
+//       while (i < 5) 
+//       {
+//         Console.WriteLine(i);
+//         i++;
+//       }
+//     }
+//   }
+// }
+
+// int[,] numbers = { {1, 4, 2}, {3, 6, 8} };
+
+// for (int i = 0; i < numbers.GetLength(0); i++) 
+// { 
+//   for (int j = 0; j < numbers.GetLength(1); j++) 
+//   { 
+//     Console.WriteLine(numbers[i, j]); 
+//   } 
+// }  
+
