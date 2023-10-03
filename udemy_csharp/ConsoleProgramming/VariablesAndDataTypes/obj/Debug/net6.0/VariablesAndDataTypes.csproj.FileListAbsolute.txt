@@ -1,0 +1,14 @@
+C:\Users\bened\Desktop\internship\udemy_csharp\ConsoleProgramming\VariablesAndDataTypes\bin\Debug\net6.0\VariablesAndDataTypes.exe
+C:\Users\bened\Desktop\internship\udemy_csharp\ConsoleProgramming\VariablesAndDataTypes\bin\Debug\net6.0\VariablesAndDataTypes.deps.json
+C:\Users\bened\Desktop\internship\udemy_csharp\ConsoleProgramming\VariablesAndDataTypes\bin\Debug\net6.0\VariablesAndDataTypes.runtimeconfig.json
+C:\Users\bened\Desktop\internship\udemy_csharp\ConsoleProgramming\VariablesAndDataTypes\bin\Debug\net6.0\VariablesAndDataTypes.dll
+C:\Users\bened\Desktop\internship\udemy_csharp\ConsoleProgramming\VariablesAndDataTypes\bin\Debug\net6.0\VariablesAndDataTypes.pdb
+C:\Users\bened\Desktop\internship\udemy_csharp\ConsoleProgramming\VariablesAndDataTypes\obj\Debug\net6.0\VariablesAndDataTypes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bened\Desktop\internship\udemy_csharp\ConsoleProgramming\VariablesAndDataTypes\obj\Debug\net6.0\VariablesAndDataTypes.AssemblyInfoInputs.cache
+C:\Users\bened\Desktop\internship\udemy_csharp\ConsoleProgramming\VariablesAndDataTypes\obj\Debug\net6.0\VariablesAndDataTypes.AssemblyInfo.cs
+C:\Users\bened\Desktop\internship\udemy_csharp\ConsoleProgramming\VariablesAndDataTypes\obj\Debug\net6.0\VariablesAndDataTypes.csproj.CoreCompileInputs.cache
+C:\Users\bened\Desktop\internship\udemy_csharp\ConsoleProgramming\VariablesAndDataTypes\obj\Debug\net6.0\VariablesAndDataTypes.dll
+C:\Users\bened\Desktop\internship\udemy_csharp\ConsoleProgramming\VariablesAndDataTypes\obj\Debug\net6.0\refint\VariablesAndDataTypes.dll
+C:\Users\bened\Desktop\internship\udemy_csharp\ConsoleProgramming\VariablesAndDataTypes\obj\Debug\net6.0\VariablesAndDataTypes.pdb
+C:\Users\bened\Desktop\internship\udemy_csharp\ConsoleProgramming\VariablesAndDataTypes\obj\Debug\net6.0\VariablesAndDataTypes.genruntimeconfig.cache
+C:\Users\bened\Desktop\internship\udemy_csharp\ConsoleProgramming\VariablesAndDataTypes\obj\Debug\net6.0\ref\VariablesAndDataTypes.dll
