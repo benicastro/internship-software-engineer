@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bened\\Desktop\\internship\\udemy_csharp\\ConsoleProgramming\\HelloWorld\\HelloWorld.csproj": {}
+    "C:\\Users\\bened\\Desktop\\internship\\udemy_csharp\\ConsoleProgramming\\InputOutput\\InputOutput.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bened\\Desktop\\internship\\udemy_csharp\\ConsoleProgramming\\HelloWorld\\HelloWorld.csproj": {
+    "C:\\Users\\bened\\Desktop\\internship\\udemy_csharp\\ConsoleProgramming\\InputOutput\\InputOutput.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bened\\Desktop\\internship\\udemy_csharp\\ConsoleProgramming\\HelloWorld\\HelloWorld.csproj",
-        "projectName": "HelloWorld",
-        "projectPath": "C:\\Users\\bened\\Desktop\\internship\\udemy_csharp\\ConsoleProgramming\\HelloWorld\\HelloWorld.csproj",
+        "projectUniqueName": "C:\\Users\\bened\\Desktop\\internship\\udemy_csharp\\ConsoleProgramming\\InputOutput\\InputOutput.csproj",
+        "projectName": "InputOutput",
+        "projectPath": "C:\\Users\\bened\\Desktop\\internship\\udemy_csharp\\ConsoleProgramming\\InputOutput\\InputOutput.csproj",
         "packagesPath": "C:\\Users\\bened\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bened\\Desktop\\internship\\udemy_csharp\\ConsoleProgramming\\HelloWorld\\obj\\",
+        "outputPath": "C:\\Users\\bened\\Desktop\\internship\\udemy_csharp\\ConsoleProgramming\\InputOutput\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\bened\\AppData\\Roaming\\NuGet\\NuGet.Config",
