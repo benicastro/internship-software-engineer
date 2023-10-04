@@ -1,0 +1,14 @@
+C:\Users\bened\Desktop\internship\udemy_csharp\ConsoleProgramming\RepetitionStatements\bin\Debug\net6.0\RepetitionStatements.exe
+C:\Users\bened\Desktop\internship\udemy_csharp\ConsoleProgramming\RepetitionStatements\bin\Debug\net6.0\RepetitionStatements.deps.json
+C:\Users\bened\Desktop\internship\udemy_csharp\ConsoleProgramming\RepetitionStatements\bin\Debug\net6.0\RepetitionStatements.runtimeconfig.json
+C:\Users\bened\Desktop\internship\udemy_csharp\ConsoleProgramming\RepetitionStatements\bin\Debug\net6.0\RepetitionStatements.dll
+C:\Users\bened\Desktop\internship\udemy_csharp\ConsoleProgramming\RepetitionStatements\bin\Debug\net6.0\RepetitionStatements.pdb
+C:\Users\bened\Desktop\internship\udemy_csharp\ConsoleProgramming\RepetitionStatements\obj\Debug\net6.0\RepetitionStatements.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bened\Desktop\internship\udemy_csharp\ConsoleProgramming\RepetitionStatements\obj\Debug\net6.0\RepetitionStatements.AssemblyInfoInputs.cache
+C:\Users\bened\Desktop\internship\udemy_csharp\ConsoleProgramming\RepetitionStatements\obj\Debug\net6.0\RepetitionStatements.AssemblyInfo.cs
+C:\Users\bened\Desktop\internship\udemy_csharp\ConsoleProgramming\RepetitionStatements\obj\Debug\net6.0\RepetitionStatements.csproj.CoreCompileInputs.cache
+C:\Users\bened\Desktop\internship\udemy_csharp\ConsoleProgramming\RepetitionStatements\obj\Debug\net6.0\RepetitionStatements.dll
+C:\Users\bened\Desktop\internship\udemy_csharp\ConsoleProgramming\RepetitionStatements\obj\Debug\net6.0\refint\RepetitionStatements.dll
+C:\Users\bened\Desktop\internship\udemy_csharp\ConsoleProgramming\RepetitionStatements\obj\Debug\net6.0\RepetitionStatements.pdb
+C:\Users\bened\Desktop\internship\udemy_csharp\ConsoleProgramming\RepetitionStatements\obj\Debug\net6.0\RepetitionStatements.genruntimeconfig.cache
+C:\Users\bened\Desktop\internship\udemy_csharp\ConsoleProgramming\RepetitionStatements\obj\Debug\net6.0\ref\RepetitionStatements.dll

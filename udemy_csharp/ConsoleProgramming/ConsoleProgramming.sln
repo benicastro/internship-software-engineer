@@ -9,9 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InputOutput", "InputOutput\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VariablesAndDataTypes", "VariablesAndDataTypes\VariablesAndDataTypes.csproj", "{4A0907F2-7CB7-4B7B-9BBD-49237DED49F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathOperators", "MathOperators\MathOperators.csproj", "{D38AA98E-9210-4DBB-AC06-043A4D6EEC30}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MathOperators", "MathOperators\MathOperators.csproj", "{D38AA98E-9210-4DBB-AC06-043A4D6EEC30}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConditionalStatements", "ConditionalStatements\ConditionalStatements.csproj", "{830561DE-031F-47A0-ABB9-E30DE3C2FCAD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConditionalStatements", "ConditionalStatements\ConditionalStatements.csproj", "{830561DE-031F-47A0-ABB9-E30DE3C2FCAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepetitionStatements", "RepetitionStatements\RepetitionStatements.csproj", "{3FBB3DF2-CEAE-4EE7-832D-A9F3234A2617}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{830561DE-031F-47A0-ABB9-E30DE3C2FCAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{830561DE-031F-47A0-ABB9-E30DE3C2FCAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{830561DE-031F-47A0-ABB9-E30DE3C2FCAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FBB3DF2-CEAE-4EE7-832D-A9F3234A2617}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FBB3DF2-CEAE-4EE7-832D-A9F3234A2617}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FBB3DF2-CEAE-4EE7-832D-A9F3234A2617}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FBB3DF2-CEAE-4EE7-832D-A9F3234A2617}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
