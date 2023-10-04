@@ -1,0 +1,14 @@
+C:\Users\bened\Desktop\internship\udemy_csharp\ConsoleProgramming\MathOperators\bin\Debug\net6.0\MathOperators.exe
+C:\Users\bened\Desktop\internship\udemy_csharp\ConsoleProgramming\MathOperators\bin\Debug\net6.0\MathOperators.deps.json
+C:\Users\bened\Desktop\internship\udemy_csharp\ConsoleProgramming\MathOperators\bin\Debug\net6.0\MathOperators.runtimeconfig.json
+C:\Users\bened\Desktop\internship\udemy_csharp\ConsoleProgramming\MathOperators\bin\Debug\net6.0\MathOperators.dll
+C:\Users\bened\Desktop\internship\udemy_csharp\ConsoleProgramming\MathOperators\bin\Debug\net6.0\MathOperators.pdb
+C:\Users\bened\Desktop\internship\udemy_csharp\ConsoleProgramming\MathOperators\obj\Debug\net6.0\MathOperators.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bened\Desktop\internship\udemy_csharp\ConsoleProgramming\MathOperators\obj\Debug\net6.0\MathOperators.AssemblyInfoInputs.cache
+C:\Users\bened\Desktop\internship\udemy_csharp\ConsoleProgramming\MathOperators\obj\Debug\net6.0\MathOperators.AssemblyInfo.cs
+C:\Users\bened\Desktop\internship\udemy_csharp\ConsoleProgramming\MathOperators\obj\Debug\net6.0\MathOperators.csproj.CoreCompileInputs.cache
+C:\Users\bened\Desktop\internship\udemy_csharp\ConsoleProgramming\MathOperators\obj\Debug\net6.0\MathOperators.dll
+C:\Users\bened\Desktop\internship\udemy_csharp\ConsoleProgramming\MathOperators\obj\Debug\net6.0\refint\MathOperators.dll
+C:\Users\bened\Desktop\internship\udemy_csharp\ConsoleProgramming\MathOperators\obj\Debug\net6.0\MathOperators.pdb
+C:\Users\bened\Desktop\internship\udemy_csharp\ConsoleProgramming\MathOperators\obj\Debug\net6.0\MathOperators.genruntimeconfig.cache
+C:\Users\bened\Desktop\internship\udemy_csharp\ConsoleProgramming\MathOperators\obj\Debug\net6.0\ref\MathOperators.dll
