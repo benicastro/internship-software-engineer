@@ -1,0 +1,14 @@
+C:\Users\bened\Desktop\internship\udemy_csharp\ConsoleProgramming\ConditionalStatements\bin\Debug\net6.0\ConditionalStatements.exe
+C:\Users\bened\Desktop\internship\udemy_csharp\ConsoleProgramming\ConditionalStatements\bin\Debug\net6.0\ConditionalStatements.deps.json
+C:\Users\bened\Desktop\internship\udemy_csharp\ConsoleProgramming\ConditionalStatements\bin\Debug\net6.0\ConditionalStatements.runtimeconfig.json
+C:\Users\bened\Desktop\internship\udemy_csharp\ConsoleProgramming\ConditionalStatements\bin\Debug\net6.0\ConditionalStatements.dll
+C:\Users\bened\Desktop\internship\udemy_csharp\ConsoleProgramming\ConditionalStatements\bin\Debug\net6.0\ConditionalStatements.pdb
+C:\Users\bened\Desktop\internship\udemy_csharp\ConsoleProgramming\ConditionalStatements\obj\Debug\net6.0\ConditionalStatements.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bened\Desktop\internship\udemy_csharp\ConsoleProgramming\ConditionalStatements\obj\Debug\net6.0\ConditionalStatements.AssemblyInfoInputs.cache
+C:\Users\bened\Desktop\internship\udemy_csharp\ConsoleProgramming\ConditionalStatements\obj\Debug\net6.0\ConditionalStatements.AssemblyInfo.cs
+C:\Users\bened\Desktop\internship\udemy_csharp\ConsoleProgramming\ConditionalStatements\obj\Debug\net6.0\ConditionalStatements.csproj.CoreCompileInputs.cache
+C:\Users\bened\Desktop\internship\udemy_csharp\ConsoleProgramming\ConditionalStatements\obj\Debug\net6.0\ConditionalStatements.dll
+C:\Users\bened\Desktop\internship\udemy_csharp\ConsoleProgramming\ConditionalStatements\obj\Debug\net6.0\refint\ConditionalStatements.dll
+C:\Users\bened\Desktop\internship\udemy_csharp\ConsoleProgramming\ConditionalStatements\obj\Debug\net6.0\ConditionalStatements.pdb
+C:\Users\bened\Desktop\internship\udemy_csharp\ConsoleProgramming\ConditionalStatements\obj\Debug\net6.0\ConditionalStatements.genruntimeconfig.cache
+C:\Users\bened\Desktop\internship\udemy_csharp\ConsoleProgramming\ConditionalStatements\obj\Debug\net6.0\ref\ConditionalStatements.dll
