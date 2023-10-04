@@ -8,7 +8,7 @@ Console.WriteLine("Hello, World!");
 There are three control structures in C# Programming:
     - Sequence
     - Decision
-    - Repetion
+    - Repetition
 */
 
 var name = "Beni";
