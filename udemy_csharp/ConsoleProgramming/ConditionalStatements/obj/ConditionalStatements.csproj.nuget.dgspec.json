@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bened\\Desktop\\internship\\udemy_csharp\\ConsoleProgramming\\VariablesAndDataTypes\\VariablesAndDataTypes.csproj": {}
+    "C:\\Users\\bened\\Desktop\\internship\\udemy_csharp\\ConsoleProgramming\\ConditionalStatements\\ConditionalStatements.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bened\\Desktop\\internship\\udemy_csharp\\ConsoleProgramming\\VariablesAndDataTypes\\VariablesAndDataTypes.csproj": {
+    "C:\\Users\\bened\\Desktop\\internship\\udemy_csharp\\ConsoleProgramming\\ConditionalStatements\\ConditionalStatements.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bened\\Desktop\\internship\\udemy_csharp\\ConsoleProgramming\\VariablesAndDataTypes\\VariablesAndDataTypes.csproj",
-        "projectName": "VariablesAndDataTypes",
-        "projectPath": "C:\\Users\\bened\\Desktop\\internship\\udemy_csharp\\ConsoleProgramming\\VariablesAndDataTypes\\VariablesAndDataTypes.csproj",
+        "projectUniqueName": "C:\\Users\\bened\\Desktop\\internship\\udemy_csharp\\ConsoleProgramming\\ConditionalStatements\\ConditionalStatements.csproj",
+        "projectName": "ConditionalStatements",
+        "projectPath": "C:\\Users\\bened\\Desktop\\internship\\udemy_csharp\\ConsoleProgramming\\ConditionalStatements\\ConditionalStatements.csproj",
         "packagesPath": "C:\\Users\\bened\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bened\\Desktop\\internship\\udemy_csharp\\ConsoleProgramming\\VariablesAndDataTypes\\obj\\",
+        "outputPath": "C:\\Users\\bened\\Desktop\\internship\\udemy_csharp\\ConsoleProgramming\\ConditionalStatements\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\bened\\AppData\\Roaming\\NuGet\\NuGet.Config",
