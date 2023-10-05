@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Methods", "Methods\Methods.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringManipulation", "StringManipulation\StringManipulation.csproj", "{35F19AA4-3DAA-4CC6-B0CD-05484E526533}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateTimeManipulations", "DateTimeManipulations\DateTimeManipulations.csproj", "{B46D2C78-6AFA-481C-AD19-6DD81F8E4813}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{35F19AA4-3DAA-4CC6-B0CD-05484E526533}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{35F19AA4-3DAA-4CC6-B0CD-05484E526533}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{35F19AA4-3DAA-4CC6-B0CD-05484E526533}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B46D2C78-6AFA-481C-AD19-6DD81F8E4813}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B46D2C78-6AFA-481C-AD19-6DD81F8E4813}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B46D2C78-6AFA-481C-AD19-6DD81F8E4813}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B46D2C78-6AFA-481C-AD19-6DD81F8E4813}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
