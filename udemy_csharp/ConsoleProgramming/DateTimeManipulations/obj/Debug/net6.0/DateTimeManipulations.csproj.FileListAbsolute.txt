@@ -1,0 +1,14 @@
+C:\Users\bened\Desktop\internship\udemy_csharp\ConsoleProgramming\DateTimeManipulations\bin\Debug\net6.0\DateTimeManipulations.exe
+C:\Users\bened\Desktop\internship\udemy_csharp\ConsoleProgramming\DateTimeManipulations\bin\Debug\net6.0\DateTimeManipulations.deps.json
+C:\Users\bened\Desktop\internship\udemy_csharp\ConsoleProgramming\DateTimeManipulations\bin\Debug\net6.0\DateTimeManipulations.runtimeconfig.json
+C:\Users\bened\Desktop\internship\udemy_csharp\ConsoleProgramming\DateTimeManipulations\bin\Debug\net6.0\DateTimeManipulations.dll
+C:\Users\bened\Desktop\internship\udemy_csharp\ConsoleProgramming\DateTimeManipulations\bin\Debug\net6.0\DateTimeManipulations.pdb
+C:\Users\bened\Desktop\internship\udemy_csharp\ConsoleProgramming\DateTimeManipulations\obj\Debug\net6.0\DateTimeManipulations.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bened\Desktop\internship\udemy_csharp\ConsoleProgramming\DateTimeManipulations\obj\Debug\net6.0\DateTimeManipulations.AssemblyInfoInputs.cache
+C:\Users\bened\Desktop\internship\udemy_csharp\ConsoleProgramming\DateTimeManipulations\obj\Debug\net6.0\DateTimeManipulations.AssemblyInfo.cs
+C:\Users\bened\Desktop\internship\udemy_csharp\ConsoleProgramming\DateTimeManipulations\obj\Debug\net6.0\DateTimeManipulations.csproj.CoreCompileInputs.cache
+C:\Users\bened\Desktop\internship\udemy_csharp\ConsoleProgramming\DateTimeManipulations\obj\Debug\net6.0\DateTimeManipulations.dll
+C:\Users\bened\Desktop\internship\udemy_csharp\ConsoleProgramming\DateTimeManipulations\obj\Debug\net6.0\refint\DateTimeManipulations.dll
+C:\Users\bened\Desktop\internship\udemy_csharp\ConsoleProgramming\DateTimeManipulations\obj\Debug\net6.0\DateTimeManipulations.pdb
+C:\Users\bened\Desktop\internship\udemy_csharp\ConsoleProgramming\DateTimeManipulations\obj\Debug\net6.0\DateTimeManipulations.genruntimeconfig.cache
+C:\Users\bened\Desktop\internship\udemy_csharp\ConsoleProgramming\DateTimeManipulations\obj\Debug\net6.0\ref\DateTimeManipulations.dll
