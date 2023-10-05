@@ -13,13 +13,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MathOperators", "MathOperat
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConditionalStatements", "ConditionalStatements\ConditionalStatements.csproj", "{830561DE-031F-47A0-ABB9-E30DE3C2FCAD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepetitionStatements", "RepetitionStatements\RepetitionStatements.csproj", "{3FBB3DF2-CEAE-4EE7-832D-A9F3234A2617}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RepetitionStatements", "RepetitionStatements\RepetitionStatements.csproj", "{3FBB3DF2-CEAE-4EE7-832D-A9F3234A2617}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Methods", "Methods\Methods.csproj", "{1EB537F3-D1EA-4C1F-B07A-0AC7614F2902}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Methods", "Methods\Methods.csproj", "{1EB537F3-D1EA-4C1F-B07A-0AC7614F2902}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringManipulation", "StringManipulation\StringManipulation.csproj", "{35F19AA4-3DAA-4CC6-B0CD-05484E526533}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringManipulation", "StringManipulation\StringManipulation.csproj", "{35F19AA4-3DAA-4CC6-B0CD-05484E526533}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateTimeManipulations", "DateTimeManipulations\DateTimeManipulations.csproj", "{B46D2C78-6AFA-481C-AD19-6DD81F8E4813}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DateTimeManipulations", "DateTimeManipulations\DateTimeManipulations.csproj", "{B46D2C78-6AFA-481C-AD19-6DD81F8E4813}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionHandling", "ExceptionHandling\ExceptionHandling.csproj", "{78DFC1BF-0656-482C-80D8-A60F2FE3737A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{B46D2C78-6AFA-481C-AD19-6DD81F8E4813}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B46D2C78-6AFA-481C-AD19-6DD81F8E4813}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B46D2C78-6AFA-481C-AD19-6DD81F8E4813}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78DFC1BF-0656-482C-80D8-A60F2FE3737A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78DFC1BF-0656-482C-80D8-A60F2FE3737A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78DFC1BF-0656-482C-80D8-A60F2FE3737A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78DFC1BF-0656-482C-80D8-A60F2FE3737A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
