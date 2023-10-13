@@ -11,6 +11,8 @@ using ClassesAndObjects;
 
 Person person =  new();
 
+string middleName = string.Empty;
+
 Console.Write("Enter First Name: ");
 person.FirstName = Console.ReadLine();
 
@@ -22,6 +24,18 @@ person.Age = Convert.ToInt32(Console.ReadLine());
 
 Console.Write("Enter salary: ");
 int salary = Convert.ToInt32(Console.ReadLine());
+
+Console.Write("Enter Middle Name: ");
+middleName = Console.ReadLine();
+
+if (string.IsNullOrEmpty(middleName))
+{
+    Console.WriteLine($"Full name is: {person.getFullName()}");
+}
+else
+{
+    Console.WriteLine($"Full name is: {person.getFullName(middleName)}");
+}
 
 person.setSalary(salary);
 
