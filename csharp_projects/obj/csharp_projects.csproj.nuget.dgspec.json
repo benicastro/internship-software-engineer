@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bened\\Desktop\\internship\\csharp_projects\\csharp_projects.csproj": {}
+    "c:\\Users\\bened\\Desktop\\internship\\csharp_projects\\csharp_projects.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bened\\Desktop\\internship\\csharp_projects\\csharp_projects.csproj": {
+    "c:\\Users\\bened\\Desktop\\internship\\csharp_projects\\csharp_projects.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bened\\Desktop\\internship\\csharp_projects\\csharp_projects.csproj",
+        "projectUniqueName": "c:\\Users\\bened\\Desktop\\internship\\csharp_projects\\csharp_projects.csproj",
         "projectName": "csharp_projects",
-        "projectPath": "C:\\Users\\bened\\Desktop\\internship\\csharp_projects\\csharp_projects.csproj",
+        "projectPath": "c:\\Users\\bened\\Desktop\\internship\\csharp_projects\\csharp_projects.csproj",
         "packagesPath": "C:\\Users\\bened\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bened\\Desktop\\internship\\csharp_projects\\obj\\",
+        "outputPath": "c:\\Users\\bened\\Desktop\\internship\\csharp_projects\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\bened\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\bened\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -53,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }
