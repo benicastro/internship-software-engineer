@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bened\\Desktop\\internship\\microsoft_csharp\\Guided-project-foreach-if-array-CSharp-main\\GuidedProject\\Starter\\Starter.csproj": {}
+    "C:\\Users\\bened\\Desktop\\internship\\microsoft_csharp\\Guided-project-foreach-if-array-CSharp-main\\GuidedProject\\Final\\Final.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bened\\Desktop\\internship\\microsoft_csharp\\Guided-project-foreach-if-array-CSharp-main\\GuidedProject\\Starter\\Starter.csproj": {
+    "C:\\Users\\bened\\Desktop\\internship\\microsoft_csharp\\Guided-project-foreach-if-array-CSharp-main\\GuidedProject\\Final\\Final.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bened\\Desktop\\internship\\microsoft_csharp\\Guided-project-foreach-if-array-CSharp-main\\GuidedProject\\Starter\\Starter.csproj",
-        "projectName": "Starter",
-        "projectPath": "C:\\Users\\bened\\Desktop\\internship\\microsoft_csharp\\Guided-project-foreach-if-array-CSharp-main\\GuidedProject\\Starter\\Starter.csproj",
+        "projectUniqueName": "C:\\Users\\bened\\Desktop\\internship\\microsoft_csharp\\Guided-project-foreach-if-array-CSharp-main\\GuidedProject\\Final\\Final.csproj",
+        "projectName": "Final",
+        "projectPath": "C:\\Users\\bened\\Desktop\\internship\\microsoft_csharp\\Guided-project-foreach-if-array-CSharp-main\\GuidedProject\\Final\\Final.csproj",
         "packagesPath": "C:\\Users\\bened\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bened\\Desktop\\internship\\microsoft_csharp\\Guided-project-foreach-if-array-CSharp-main\\GuidedProject\\Starter\\obj\\",
+        "outputPath": "C:\\Users\\bened\\Desktop\\internship\\microsoft_csharp\\Guided-project-foreach-if-array-CSharp-main\\GuidedProject\\Final\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\bened\\AppData\\Roaming\\NuGet\\NuGet.Config",
