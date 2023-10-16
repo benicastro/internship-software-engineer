@@ -1,0 +1,14 @@
+C:\Users\bened\Desktop\internship\csharp_projects\booltest\bin\Debug\net7.0\booltest.exe
+C:\Users\bened\Desktop\internship\csharp_projects\booltest\bin\Debug\net7.0\booltest.deps.json
+C:\Users\bened\Desktop\internship\csharp_projects\booltest\bin\Debug\net7.0\booltest.runtimeconfig.json
+C:\Users\bened\Desktop\internship\csharp_projects\booltest\bin\Debug\net7.0\booltest.dll
+C:\Users\bened\Desktop\internship\csharp_projects\booltest\bin\Debug\net7.0\booltest.pdb
+C:\Users\bened\Desktop\internship\csharp_projects\booltest\obj\Debug\net7.0\booltest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bened\Desktop\internship\csharp_projects\booltest\obj\Debug\net7.0\booltest.AssemblyInfoInputs.cache
+C:\Users\bened\Desktop\internship\csharp_projects\booltest\obj\Debug\net7.0\booltest.AssemblyInfo.cs
+C:\Users\bened\Desktop\internship\csharp_projects\booltest\obj\Debug\net7.0\booltest.csproj.CoreCompileInputs.cache
+C:\Users\bened\Desktop\internship\csharp_projects\booltest\obj\Debug\net7.0\booltest.dll
+C:\Users\bened\Desktop\internship\csharp_projects\booltest\obj\Debug\net7.0\refint\booltest.dll
+C:\Users\bened\Desktop\internship\csharp_projects\booltest\obj\Debug\net7.0\booltest.pdb
+C:\Users\bened\Desktop\internship\csharp_projects\booltest\obj\Debug\net7.0\booltest.genruntimeconfig.cache
+C:\Users\bened\Desktop\internship\csharp_projects\booltest\obj\Debug\net7.0\ref\booltest.dll
