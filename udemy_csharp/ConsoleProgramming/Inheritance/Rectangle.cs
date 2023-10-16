@@ -2,6 +2,13 @@
 
 class Rectangle : Shape, IShape
 {
+    public Rectangle(int height, int length, int width)
+    {
+        Height = height;
+        Length = length;
+        Width = width;
+    }
+
     public double Width { get; set; }
     public double getArea()
     {
