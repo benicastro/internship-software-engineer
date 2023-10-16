@@ -42,3 +42,5 @@ person.setSalary(salary);
 Console.WriteLine($"Full name is: {person.getFullName()}");
 Console.WriteLine($"Age is: {person.Age}");
 Console.WriteLine($"Salary is: {person.getSalary()}");
+
+Console.WriteLine($"Year of Birth is: {DateUtil.YearOfBirth(person.Age)}");

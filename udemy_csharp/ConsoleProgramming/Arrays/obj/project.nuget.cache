@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "0b2JJVhdesur/EMD6GW89FYH5r69OUmiQcG7SfnlsaCV5KgCY5aGREhv92oKncf85SIC4DuGXi8xQ5P3ngwm6w==",
+  "dgSpecHash": "ir7ugI4GJ22xtmY2O0cpq5TDw2f4dRXQchgm0ahxQUCs0rt8P2m3CdJNKiu1eJRoOg0TsA+1Acm2hX6QOfhMMA==",
   "success": true,
   "projectFilePath": "C:\\Users\\bened\\Desktop\\internship\\udemy_csharp\\ConsoleProgramming\\Arrays\\Arrays.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\bened\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.23\\microsoft.windowsdesktop.app.ref.6.0.23.nupkg.sha512",
+    "C:\\Users\\bened\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.23\\microsoft.netcore.app.ref.6.0.23.nupkg.sha512",
+    "C:\\Users\\bened\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.23\\microsoft.aspnetcore.app.ref.6.0.23.nupkg.sha512",
+    "C:\\Users\\bened\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.23\\microsoft.netcore.app.host.win-x64.6.0.23.nupkg.sha512"
+  ],
   "logs": []
 }

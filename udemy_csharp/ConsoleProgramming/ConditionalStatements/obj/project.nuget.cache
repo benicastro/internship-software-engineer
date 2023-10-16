@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "nYVbZKW1Qq5Mw2n7FNOwRV3Ug26X6AAZYAuMNkr/jOTW1LecHHOeM8VxbzvrHvo0aJyYhftlRS/7ThNqoAln6A==",
+  "dgSpecHash": "IpGO1ZlKwhjFahIq4w1mTtAC/7l4JlcCuqZ2a8lhke7YD6VxY9ZOtX2ommLGdLxS2p8iA+OEd2TayOvM66zZog==",
   "success": true,
   "projectFilePath": "C:\\Users\\bened\\Desktop\\internship\\udemy_csharp\\ConsoleProgramming\\ConditionalStatements\\ConditionalStatements.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\bened\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.23\\microsoft.windowsdesktop.app.ref.6.0.23.nupkg.sha512",
+    "C:\\Users\\bened\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.23\\microsoft.netcore.app.ref.6.0.23.nupkg.sha512",
+    "C:\\Users\\bened\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.23\\microsoft.aspnetcore.app.ref.6.0.23.nupkg.sha512",
+    "C:\\Users\\bened\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.23\\microsoft.netcore.app.host.win-x64.6.0.23.nupkg.sha512"
+  ],
   "logs": []
 }
