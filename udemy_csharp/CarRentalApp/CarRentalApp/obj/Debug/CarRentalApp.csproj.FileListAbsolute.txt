@@ -7,3 +7,4 @@ C:\Users\bened\Desktop\internship\udemy_csharp\CarRentalApp\CarRentalApp\obj\Deb
 C:\Users\bened\Desktop\internship\udemy_csharp\CarRentalApp\CarRentalApp\obj\Debug\CarRentalApp.csproj.CoreCompileInputs.cache
 C:\Users\bened\Desktop\internship\udemy_csharp\CarRentalApp\CarRentalApp\obj\Debug\CarRentalApp.exe
 C:\Users\bened\Desktop\internship\udemy_csharp\CarRentalApp\CarRentalApp\obj\Debug\CarRentalApp.pdb
+C:\Users\bened\Desktop\internship\udemy_csharp\CarRentalApp\CarRentalApp\obj\Debug\CarRentalApp.Form1.resources
