@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\bened\\Desktop\\internship\\csharp_projects\\csharp_projects.csproj": {}
+    "C:\\Users\\bened\\Desktop\\internship\\csharp_projects\\csharp_projects.csproj": {}
   },
   "projects": {
-    "c:\\Users\\bened\\Desktop\\internship\\csharp_projects\\csharp_projects.csproj": {
+    "C:\\Users\\bened\\Desktop\\internship\\csharp_projects\\csharp_projects.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\bened\\Desktop\\internship\\csharp_projects\\csharp_projects.csproj",
+        "projectUniqueName": "C:\\Users\\bened\\Desktop\\internship\\csharp_projects\\csharp_projects.csproj",
         "projectName": "csharp_projects",
-        "projectPath": "c:\\Users\\bened\\Desktop\\internship\\csharp_projects\\csharp_projects.csproj",
+        "projectPath": "C:\\Users\\bened\\Desktop\\internship\\csharp_projects\\csharp_projects.csproj",
         "packagesPath": "C:\\Users\\bened\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\bened\\Desktop\\internship\\csharp_projects\\obj\\",
+        "outputPath": "C:\\Users\\bened\\Desktop\\internship\\csharp_projects\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\bened\\AppData\\Roaming\\NuGet\\NuGet.Config",
