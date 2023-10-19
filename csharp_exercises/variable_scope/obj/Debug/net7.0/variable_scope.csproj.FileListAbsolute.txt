@@ -1,0 +1,14 @@
+C:\Users\bened\Desktop\internship\csharp_exercises\variable_scope\obj\Debug\net7.0\variable_scope.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bened\Desktop\internship\csharp_exercises\variable_scope\obj\Debug\net7.0\variable_scope.AssemblyInfoInputs.cache
+C:\Users\bened\Desktop\internship\csharp_exercises\variable_scope\obj\Debug\net7.0\variable_scope.AssemblyInfo.cs
+C:\Users\bened\Desktop\internship\csharp_exercises\variable_scope\obj\Debug\net7.0\variable_scope.csproj.CoreCompileInputs.cache
+C:\Users\bened\Desktop\internship\csharp_exercises\variable_scope\bin\Debug\net7.0\variable_scope.exe
+C:\Users\bened\Desktop\internship\csharp_exercises\variable_scope\bin\Debug\net7.0\variable_scope.deps.json
+C:\Users\bened\Desktop\internship\csharp_exercises\variable_scope\bin\Debug\net7.0\variable_scope.runtimeconfig.json
+C:\Users\bened\Desktop\internship\csharp_exercises\variable_scope\bin\Debug\net7.0\variable_scope.dll
+C:\Users\bened\Desktop\internship\csharp_exercises\variable_scope\bin\Debug\net7.0\variable_scope.pdb
+C:\Users\bened\Desktop\internship\csharp_exercises\variable_scope\obj\Debug\net7.0\variable_scope.dll
+C:\Users\bened\Desktop\internship\csharp_exercises\variable_scope\obj\Debug\net7.0\refint\variable_scope.dll
+C:\Users\bened\Desktop\internship\csharp_exercises\variable_scope\obj\Debug\net7.0\variable_scope.pdb
+C:\Users\bened\Desktop\internship\csharp_exercises\variable_scope\obj\Debug\net7.0\variable_scope.genruntimeconfig.cache
+C:\Users\bened\Desktop\internship\csharp_exercises\variable_scope\obj\Debug\net7.0\ref\variable_scope.dll

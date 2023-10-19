@@ -7,4 +7,10 @@ C:\Users\bened\Desktop\internship\udemy_csharp\CarRentalApp\CarRentalApp\obj\Deb
 C:\Users\bened\Desktop\internship\udemy_csharp\CarRentalApp\CarRentalApp\obj\Debug\CarRentalApp.csproj.CoreCompileInputs.cache
 C:\Users\bened\Desktop\internship\udemy_csharp\CarRentalApp\CarRentalApp\obj\Debug\CarRentalApp.exe
 C:\Users\bened\Desktop\internship\udemy_csharp\CarRentalApp\CarRentalApp\obj\Debug\CarRentalApp.pdb
-C:\Users\bened\Desktop\internship\udemy_csharp\CarRentalApp\CarRentalApp\obj\Debug\CarRentalApp.Form1.resources
+C:\Users\bened\Desktop\internship\udemy_csharp\CarRentalApp\CarRentalApp\bin\Debug\EntityFramework.dll
+C:\Users\bened\Desktop\internship\udemy_csharp\CarRentalApp\CarRentalApp\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\bened\Desktop\internship\udemy_csharp\CarRentalApp\CarRentalApp\bin\Debug\EntityFramework.xml
+C:\Users\bened\Desktop\internship\udemy_csharp\CarRentalApp\CarRentalApp\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\bened\Desktop\internship\udemy_csharp\CarRentalApp\CarRentalApp\obj\Debug\CarRentalApp.csproj.CopyComplete
+C:\Users\bened\Desktop\internship\udemy_csharp\CarRentalApp\CarRentalApp\obj\Debug\CarRentalApp.MainWindow.resources
+C:\Users\bened\Desktop\internship\udemy_csharp\CarRentalApp\CarRentalApp\obj\Debug\CarRentalApp.AddRentalRecord.resources
