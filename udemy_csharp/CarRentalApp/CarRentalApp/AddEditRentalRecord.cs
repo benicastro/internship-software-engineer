@@ -10,14 +10,45 @@ using System.Windows.Forms;
 
 namespace CarRentalApp
 {
-    public partial class AddRentalRecord : Form
+    public partial class AddEditRentalRecord : Form
     {
-        private readonly CarRentalEntities carRentalEntities;
+        private readonly CarRentalEntities _db;
+        private bool isEditMode;
 
-        public AddRentalRecord()
+        public AddEditRentalRecord()
         {
             InitializeComponent();
-            carRentalEntities = new CarRentalEntities();
+            lblTitle.Text = "Add New Rental Record";
+            this.Text = "Add New Rental Record";
+            isEditMode = false;
+            _db = new CarRentalEntities();
+        }
+
+        public AddEditRentalRecord(CarRentalRecord recordToEdit)
+        {
+            InitializeComponent();
+            lblTitle.Text = "Edit Rental Record";
+            this.Text = "Edit Rental Record";
+            if (recordToEdit == null ) 
+            {
+                MessageBox.Show("Please ensure that you selected a valid record to edit.");
+                Close();
+            }
+            else
+            {
+                isEditMode = true;
+                _db = new CarRentalEntities();
+                PopulateFields(recordToEdit);
+            }
+        }
+
+        private void PopulateFields(CarRentalRecord recordToEdit)
+        {
+            tbCustomerName.Text = recordToEdit.CustomerName;
+            dtpRentDate.Value = (DateTime) recordToEdit.DateRented;
+            dtpReturnDate.Value = (DateTime) recordToEdit.DateReturned;
+            tbCost.Text = recordToEdit.Cost.ToString();
+            lblRecordId.Text = recordToEdit.id.ToString();
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -77,20 +108,38 @@ namespace CarRentalApp
 
                 if (isValid)
                 {
+                    // Declare an object of the record to be added
                     var rentalRecord = new CarRentalRecord();
+                    if (isEditMode)
+                    {
+                        // If in edit mode, then get the ID and retrieve the record from the database and set the 
+                        // result to the rentalRecord object
+                        var id = int.Parse(lblRecordId.Text);
+                        rentalRecord = _db.CarRentalRecords.FirstOrDefault(q => q.id == id);                        
+                    }
+
+                    // Populate record object with values from the form
                     rentalRecord.CustomerName = customerName;
                     rentalRecord.DateRented = dateOut;
                     rentalRecord.DateReturned = dateIn;
-                    rentalRecord.Cost = (decimal) cost;
-                    rentalRecord.TypeOfCarId = (int) cbCarType.SelectedValue;
+                    rentalRecord.Cost = (decimal)cost;
+                    rentalRecord.TypeOfCarId = (int)cbCarType.SelectedValue;
 
-                    carRentalEntities.CarRentalRecords.Add(rentalRecord);
-                    carRentalEntities.SaveChanges();
+                    // If not in edit mode, then add the record object to the database
+                    if (!isEditMode)
+                    {
+                        _db.CarRentalRecords.Add(rentalRecord);
+                    }
+                    
+                    // Save changes made to the entity
+                    _db.SaveChanges();
 
                     MessageBox.Show($"Thank you for renting, {customerName}.\n\r" +
                         $"You have rented a {carType} car on {dateIn}.\n\r" +
                         $"It was returned on {dateOut}.\n\r" +
                         $"The total cost was {cost}.");
+
+                    Close();
                 }
                 else
                 {
@@ -125,9 +174,12 @@ namespace CarRentalApp
         private void Form1_Load(object sender, EventArgs e)
         {
             // SELECT * FROM TypesOfCars
-            var cars = carRentalEntities.TypesOfCars.ToList();
+            //var cars = carRentalEntities.TypesOfCars.ToList();
+            var cars = _db.TypesOfCars
+                .Select(q => new { Id = q.Id, Name = q.Make + " " + q.Model })
+                .ToList();
             cbCarType.DisplayMember = "name";
-            cbCarType.ValueMember = "id";
+            cbCarType.ValueMember = "Id";
             cbCarType.DataSource = cars;
         }
 

@@ -45,7 +45,7 @@
             this.manageRentalRecordsToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1050, 25);
+            this.menuStrip1.Size = new System.Drawing.Size(1079, 25);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
@@ -70,27 +70,28 @@
             // addRentalRecordToolStripMenuItem
             // 
             this.addRentalRecordToolStripMenuItem.Name = "addRentalRecordToolStripMenuItem";
-            this.addRentalRecordToolStripMenuItem.Size = new System.Drawing.Size(193, 24);
+            this.addRentalRecordToolStripMenuItem.Size = new System.Drawing.Size(201, 24);
             this.addRentalRecordToolStripMenuItem.Text = "Add Rental Record";
             this.addRentalRecordToolStripMenuItem.Click += new System.EventHandler(this.addRentalRecordToolStripMenuItem_Click);
             // 
             // editRentalRecordToolStripMenuItem
             // 
             this.editRentalRecordToolStripMenuItem.Name = "editRentalRecordToolStripMenuItem";
-            this.editRentalRecordToolStripMenuItem.Size = new System.Drawing.Size(193, 24);
+            this.editRentalRecordToolStripMenuItem.Size = new System.Drawing.Size(201, 24);
             this.editRentalRecordToolStripMenuItem.Text = "Edit Rental Record";
             // 
             // viewArchiveToolStripMenuItem
             // 
             this.viewArchiveToolStripMenuItem.Name = "viewArchiveToolStripMenuItem";
-            this.viewArchiveToolStripMenuItem.Size = new System.Drawing.Size(193, 24);
+            this.viewArchiveToolStripMenuItem.Size = new System.Drawing.Size(201, 24);
             this.viewArchiveToolStripMenuItem.Text = "View Archive";
+            this.viewArchiveToolStripMenuItem.Click += new System.EventHandler(this.viewArchiveToolStripMenuItem_Click);
             // 
             // MainWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1050, 564);
+            this.ClientSize = new System.Drawing.Size(1079, 676);
             this.Controls.Add(this.menuStrip1);
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;

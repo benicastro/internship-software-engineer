@@ -13,5 +13,7 @@ C:\Users\bened\Desktop\internship\udemy_csharp\CarRentalApp\CarRentalApp\bin\Deb
 C:\Users\bened\Desktop\internship\udemy_csharp\CarRentalApp\CarRentalApp\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\bened\Desktop\internship\udemy_csharp\CarRentalApp\CarRentalApp\obj\Debug\CarRentalApp.csproj.CopyComplete
 C:\Users\bened\Desktop\internship\udemy_csharp\CarRentalApp\CarRentalApp\obj\Debug\CarRentalApp.MainWindow.resources
-C:\Users\bened\Desktop\internship\udemy_csharp\CarRentalApp\CarRentalApp\obj\Debug\CarRentalApp.AddRentalRecord.resources
 C:\Users\bened\Desktop\internship\udemy_csharp\CarRentalApp\CarRentalApp\obj\Debug\CarRentalApp.ManageVehicleListing.resources
+C:\Users\bened\Desktop\internship\udemy_csharp\CarRentalApp\CarRentalApp\obj\Debug\CarRentalApp.AddEditVehicle.resources
+C:\Users\bened\Desktop\internship\udemy_csharp\CarRentalApp\CarRentalApp\obj\Debug\CarRentalApp.ManageRentalRecords.resources
+C:\Users\bened\Desktop\internship\udemy_csharp\CarRentalApp\CarRentalApp\obj\Debug\CarRentalApp.AddEditRentalRecord.resources
