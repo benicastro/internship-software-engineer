@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "RFwc8mNqg/7wuGpz5EFf/NxIVWjGMY4I+oBWT6Y/Y1K7PCsEG9zRCnxlGeqIGACkB2OILZLmNMD4q8Dx2P+wxw==",
+  "dgSpecHash": "lFe9w667LXoQkxxalc6Q9HBJajaY0vhgJ9Ff5KCTBjQlTaXX9kfnIUCRrN0QPiL8G1BykCt78cKUhmOvAg8KYg==",
   "success": true,
   "projectFilePath": "C:\\Users\\bened\\Desktop\\internship\\udemy_csharp\\ConsoleProgramming\\VariablesAndDataTypes\\VariablesAndDataTypes.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\bened\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.23\\microsoft.windowsdesktop.app.ref.6.0.23.nupkg.sha512",
-    "C:\\Users\\bened\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.23\\microsoft.netcore.app.ref.6.0.23.nupkg.sha512",
-    "C:\\Users\\bened\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.23\\microsoft.aspnetcore.app.ref.6.0.23.nupkg.sha512",
-    "C:\\Users\\bened\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.23\\microsoft.netcore.app.host.win-x64.6.0.23.nupkg.sha512"
+    "C:\\Users\\bened\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.24\\microsoft.windowsdesktop.app.ref.6.0.24.nupkg.sha512",
+    "C:\\Users\\bened\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.24\\microsoft.netcore.app.ref.6.0.24.nupkg.sha512",
+    "C:\\Users\\bened\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.24\\microsoft.aspnetcore.app.ref.6.0.24.nupkg.sha512",
+    "C:\\Users\\bened\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.24\\microsoft.netcore.app.host.win-x64.6.0.24.nupkg.sha512"
   ],
   "logs": []
 }
