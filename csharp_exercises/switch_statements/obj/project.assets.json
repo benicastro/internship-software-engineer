@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\bened\\Desktop\\internship\\csharp_projects\\csharp_projects.csproj",
-      "projectName": "csharp_projects",
-      "projectPath": "C:\\Users\\bened\\Desktop\\internship\\csharp_projects\\csharp_projects.csproj",
+      "projectUniqueName": "C:\\Users\\bened\\Desktop\\internship\\csharp_exercises\\switch_statements\\switch_statements.csproj",
+      "projectName": "switch_statements",
+      "projectPath": "C:\\Users\\bened\\Desktop\\internship\\csharp_exercises\\switch_statements\\switch_statements.csproj",
       "packagesPath": "C:\\Users\\bened\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\bened\\Desktop\\internship\\csharp_projects\\obj\\",
+      "outputPath": "C:\\Users\\bened\\Desktop\\internship\\csharp_exercises\\switch_statements\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\bened\\AppData\\Roaming\\NuGet\\NuGet.Config",
