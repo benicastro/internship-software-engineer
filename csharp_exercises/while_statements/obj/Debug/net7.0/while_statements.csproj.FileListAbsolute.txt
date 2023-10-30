@@ -1,0 +1,14 @@
+C:\Users\bened\Desktop\internship\csharp_exercises\while_statements\bin\Debug\net7.0\while_statements.exe
+C:\Users\bened\Desktop\internship\csharp_exercises\while_statements\bin\Debug\net7.0\while_statements.deps.json
+C:\Users\bened\Desktop\internship\csharp_exercises\while_statements\bin\Debug\net7.0\while_statements.runtimeconfig.json
+C:\Users\bened\Desktop\internship\csharp_exercises\while_statements\bin\Debug\net7.0\while_statements.dll
+C:\Users\bened\Desktop\internship\csharp_exercises\while_statements\bin\Debug\net7.0\while_statements.pdb
+C:\Users\bened\Desktop\internship\csharp_exercises\while_statements\obj\Debug\net7.0\while_statements.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bened\Desktop\internship\csharp_exercises\while_statements\obj\Debug\net7.0\while_statements.AssemblyInfoInputs.cache
+C:\Users\bened\Desktop\internship\csharp_exercises\while_statements\obj\Debug\net7.0\while_statements.AssemblyInfo.cs
+C:\Users\bened\Desktop\internship\csharp_exercises\while_statements\obj\Debug\net7.0\while_statements.csproj.CoreCompileInputs.cache
+C:\Users\bened\Desktop\internship\csharp_exercises\while_statements\obj\Debug\net7.0\while_statements.dll
+C:\Users\bened\Desktop\internship\csharp_exercises\while_statements\obj\Debug\net7.0\refint\while_statements.dll
+C:\Users\bened\Desktop\internship\csharp_exercises\while_statements\obj\Debug\net7.0\while_statements.pdb
+C:\Users\bened\Desktop\internship\csharp_exercises\while_statements\obj\Debug\net7.0\while_statements.genruntimeconfig.cache
+C:\Users\bened\Desktop\internship\csharp_exercises\while_statements\obj\Debug\net7.0\ref\while_statements.dll

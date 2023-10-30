@@ -1,0 +1,14 @@
+C:\Users\bened\Desktop\internship\csharp_exercises\for_statements\bin\Debug\net7.0\for_statements.exe
+C:\Users\bened\Desktop\internship\csharp_exercises\for_statements\bin\Debug\net7.0\for_statements.deps.json
+C:\Users\bened\Desktop\internship\csharp_exercises\for_statements\bin\Debug\net7.0\for_statements.runtimeconfig.json
+C:\Users\bened\Desktop\internship\csharp_exercises\for_statements\bin\Debug\net7.0\for_statements.dll
+C:\Users\bened\Desktop\internship\csharp_exercises\for_statements\bin\Debug\net7.0\for_statements.pdb
+C:\Users\bened\Desktop\internship\csharp_exercises\for_statements\obj\Debug\net7.0\for_statements.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bened\Desktop\internship\csharp_exercises\for_statements\obj\Debug\net7.0\for_statements.AssemblyInfoInputs.cache
+C:\Users\bened\Desktop\internship\csharp_exercises\for_statements\obj\Debug\net7.0\for_statements.AssemblyInfo.cs
+C:\Users\bened\Desktop\internship\csharp_exercises\for_statements\obj\Debug\net7.0\for_statements.csproj.CoreCompileInputs.cache
+C:\Users\bened\Desktop\internship\csharp_exercises\for_statements\obj\Debug\net7.0\for_statements.dll
+C:\Users\bened\Desktop\internship\csharp_exercises\for_statements\obj\Debug\net7.0\refint\for_statements.dll
+C:\Users\bened\Desktop\internship\csharp_exercises\for_statements\obj\Debug\net7.0\for_statements.pdb
+C:\Users\bened\Desktop\internship\csharp_exercises\for_statements\obj\Debug\net7.0\for_statements.genruntimeconfig.cache
+C:\Users\bened\Desktop\internship\csharp_exercises\for_statements\obj\Debug\net7.0\ref\for_statements.dll
