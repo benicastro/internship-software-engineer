@@ -238,7 +238,7 @@ do
                 ourAnimals[petCount, 5] = "Personality: " + animalPersonalityDescription;
 
                 // increment petCount (the array is zero-based, so we increment the counter after adding to the array)
-                petCount = petCount + 1;
+                petCount++;
 
                 // check maxPet limit
                 if (petCount < maxPets)
