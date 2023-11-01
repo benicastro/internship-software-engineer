@@ -1,0 +1,14 @@
+C:\Users\bened\Desktop\internship\csharp_exercises\convert_data\obj\Debug\net7.0\convert_data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bened\Desktop\internship\csharp_exercises\convert_data\obj\Debug\net7.0\convert_data.AssemblyInfoInputs.cache
+C:\Users\bened\Desktop\internship\csharp_exercises\convert_data\obj\Debug\net7.0\convert_data.AssemblyInfo.cs
+C:\Users\bened\Desktop\internship\csharp_exercises\convert_data\obj\Debug\net7.0\convert_data.csproj.CoreCompileInputs.cache
+C:\Users\bened\Desktop\internship\csharp_exercises\convert_data\bin\Debug\net7.0\convert_data.exe
+C:\Users\bened\Desktop\internship\csharp_exercises\convert_data\bin\Debug\net7.0\convert_data.deps.json
+C:\Users\bened\Desktop\internship\csharp_exercises\convert_data\bin\Debug\net7.0\convert_data.runtimeconfig.json
+C:\Users\bened\Desktop\internship\csharp_exercises\convert_data\bin\Debug\net7.0\convert_data.dll
+C:\Users\bened\Desktop\internship\csharp_exercises\convert_data\bin\Debug\net7.0\convert_data.pdb
+C:\Users\bened\Desktop\internship\csharp_exercises\convert_data\obj\Debug\net7.0\convert_data.dll
+C:\Users\bened\Desktop\internship\csharp_exercises\convert_data\obj\Debug\net7.0\refint\convert_data.dll
+C:\Users\bened\Desktop\internship\csharp_exercises\convert_data\obj\Debug\net7.0\convert_data.pdb
+C:\Users\bened\Desktop\internship\csharp_exercises\convert_data\obj\Debug\net7.0\convert_data.genruntimeconfig.cache
+C:\Users\bened\Desktop\internship\csharp_exercises\convert_data\obj\Debug\net7.0\ref\convert_data.dll
