@@ -1,0 +1,14 @@
+C:\Users\bened\Desktop\internship\microsoft_csharp\projects\pets_application\obj\Debug\net7.0\pets_application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bened\Desktop\internship\microsoft_csharp\projects\pets_application\obj\Debug\net7.0\pets_application.AssemblyInfoInputs.cache
+C:\Users\bened\Desktop\internship\microsoft_csharp\projects\pets_application\obj\Debug\net7.0\pets_application.AssemblyInfo.cs
+C:\Users\bened\Desktop\internship\microsoft_csharp\projects\pets_application\obj\Debug\net7.0\pets_application.csproj.CoreCompileInputs.cache
+C:\Users\bened\Desktop\internship\microsoft_csharp\projects\pets_application\bin\Debug\net7.0\pets_application.exe
+C:\Users\bened\Desktop\internship\microsoft_csharp\projects\pets_application\bin\Debug\net7.0\pets_application.deps.json
+C:\Users\bened\Desktop\internship\microsoft_csharp\projects\pets_application\bin\Debug\net7.0\pets_application.runtimeconfig.json
+C:\Users\bened\Desktop\internship\microsoft_csharp\projects\pets_application\bin\Debug\net7.0\pets_application.dll
+C:\Users\bened\Desktop\internship\microsoft_csharp\projects\pets_application\bin\Debug\net7.0\pets_application.pdb
+C:\Users\bened\Desktop\internship\microsoft_csharp\projects\pets_application\obj\Debug\net7.0\pets_application.dll
+C:\Users\bened\Desktop\internship\microsoft_csharp\projects\pets_application\obj\Debug\net7.0\refint\pets_application.dll
+C:\Users\bened\Desktop\internship\microsoft_csharp\projects\pets_application\obj\Debug\net7.0\pets_application.pdb
+C:\Users\bened\Desktop\internship\microsoft_csharp\projects\pets_application\obj\Debug\net7.0\pets_application.genruntimeconfig.cache
+C:\Users\bened\Desktop\internship\microsoft_csharp\projects\pets_application\obj\Debug\net7.0\ref\pets_application.dll
