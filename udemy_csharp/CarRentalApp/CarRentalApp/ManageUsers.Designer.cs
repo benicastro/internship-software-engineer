@@ -33,8 +33,8 @@
             this.btnReserPassword = new System.Windows.Forms.Button();
             this.btnAddUser = new System.Windows.Forms.Button();
             this.lblTitle = new System.Windows.Forms.Label();
-            this.gvRecordList = new System.Windows.Forms.DataGridView();
-            ((System.ComponentModel.ISupportInitialize)(this.gvRecordList)).BeginInit();
+            this.gvUsersList = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.gvUsersList)).BeginInit();
             this.SuspendLayout();
             // 
             // btnRefresh
@@ -50,18 +50,18 @@
             // btnDeactivateUser
             // 
             this.btnDeactivateUser.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDeactivateUser.Location = new System.Drawing.Point(522, 534);
+            this.btnDeactivateUser.Location = new System.Drawing.Point(492, 534);
             this.btnDeactivateUser.Name = "btnDeactivateUser";
-            this.btnDeactivateUser.Size = new System.Drawing.Size(142, 51);
+            this.btnDeactivateUser.Size = new System.Drawing.Size(206, 51);
             this.btnDeactivateUser.TabIndex = 16;
-            this.btnDeactivateUser.Text = "Deactivate User";
+            this.btnDeactivateUser.Text = "Deactivate/Activate User";
             this.btnDeactivateUser.UseVisualStyleBackColor = true;
             this.btnDeactivateUser.Click += new System.EventHandler(this.btnDeactivateUser_Click);
             // 
             // btnReserPassword
             // 
             this.btnReserPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnReserPassword.Location = new System.Drawing.Point(280, 534);
+            this.btnReserPassword.Location = new System.Drawing.Point(267, 534);
             this.btnReserPassword.Name = "btnReserPassword";
             this.btnReserPassword.Size = new System.Drawing.Size(148, 51);
             this.btnReserPassword.TabIndex = 15;
@@ -90,14 +90,14 @@
             this.lblTitle.TabIndex = 13;
             this.lblTitle.Text = "Manage Users";
             // 
-            // gvRecordList
+            // gvUsersList
             // 
-            this.gvRecordList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.gvRecordList.Location = new System.Drawing.Point(39, 103);
-            this.gvRecordList.Name = "gvRecordList";
-            this.gvRecordList.RowHeadersWidth = 46;
-            this.gvRecordList.Size = new System.Drawing.Size(863, 409);
-            this.gvRecordList.TabIndex = 12;
+            this.gvUsersList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.gvUsersList.Location = new System.Drawing.Point(39, 103);
+            this.gvUsersList.Name = "gvUsersList";
+            this.gvUsersList.RowHeadersWidth = 46;
+            this.gvUsersList.Size = new System.Drawing.Size(863, 409);
+            this.gvUsersList.TabIndex = 12;
             // 
             // ManageUsers
             // 
@@ -109,10 +109,10 @@
             this.Controls.Add(this.btnReserPassword);
             this.Controls.Add(this.btnAddUser);
             this.Controls.Add(this.lblTitle);
-            this.Controls.Add(this.gvRecordList);
+            this.Controls.Add(this.gvUsersList);
             this.Name = "ManageUsers";
             this.Text = "Manage Users";
-            ((System.ComponentModel.ISupportInitialize)(this.gvRecordList)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gvUsersList)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -125,6 +125,6 @@
         private System.Windows.Forms.Button btnReserPassword;
         private System.Windows.Forms.Button btnAddUser;
         private System.Windows.Forms.Label lblTitle;
-        private System.Windows.Forms.DataGridView gvRecordList;
+        private System.Windows.Forms.DataGridView gvUsersList;
     }
 }

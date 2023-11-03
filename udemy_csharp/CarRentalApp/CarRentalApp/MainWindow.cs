@@ -14,16 +14,18 @@ namespace CarRentalApp
     {
         private Login _login;
         public string _roleName;
+        public User _user;
         public MainWindow()
         {
             InitializeComponent();
         }
 
-        public MainWindow(Login login, string roleShortName)
+        public MainWindow(Login login, User user)
         {
             InitializeComponent();
             _login = login;
-            _roleName = roleShortName;
+            _user = user;
+            _roleName = user.UserRoles.FirstOrDefault().Role.shortName;
         }
 
         private void MainWindow_Load(object sender, EventArgs e)
@@ -71,10 +73,11 @@ namespace CarRentalApp
 
         private void viewArchiveToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            //if (!Utils.FormIsOpen("ManageRentalRecords"))
-            var OpenForms = Application.OpenForms.Cast<Form>();
-            var isOpen = OpenForms.Any(q => q.Name == "ManageRentalRecords");
-            if (!isOpen)
+
+            //var OpenForms = Application.OpenForms.Cast<Form>();
+            //var isOpen = OpenForms.Any(q => q.Name == "ManageRentalRecords");
+            //if (!isOpen)
+            if (!Utils.FormIsOpen("ManageRentalRecords"))
             {
                 var manageRentalRecords = new ManageRentalRecords();
                 manageRentalRecords.MdiParent = this;
