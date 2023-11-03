@@ -65,9 +65,15 @@ namespace CarRentalApp
                 var car = _db.TypesOfCars.FirstOrDefault(q => q.Id == id);
 
                 // Launch AddEditVehicle window with data
-                var addEditVehicle = new AddEditVehicle(car, this);
-                addEditVehicle.MdiParent = this.MdiParent;
-                addEditVehicle.Show();
+                var OpenForms = Application.OpenForms.Cast<Form>();
+                var isOpen = OpenForms.Any(q => q.Name == "AddEditVehicle");
+                if (!isOpen)
+                {
+                    var addEditVehicle = new AddEditVehicle(car, this);
+                    addEditVehicle.MdiParent = this.MdiParent;
+                    addEditVehicle.Show();
+                }
+                    
             }
             catch (Exception ex)
             {

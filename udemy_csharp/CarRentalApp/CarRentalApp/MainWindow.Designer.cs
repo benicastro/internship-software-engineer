@@ -34,6 +34,7 @@
             this.addRentalRecordToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.editRentalRecordToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.viewArchiveToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.manageUsersToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -42,7 +43,8 @@
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(18, 18);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.manageVehicleListingToolStripMenuItem,
-            this.manageRentalRecordsToolStripMenuItem});
+            this.manageRentalRecordsToolStripMenuItem,
+            this.manageUsersToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(1079, 25);
@@ -87,6 +89,13 @@
             this.viewArchiveToolStripMenuItem.Text = "View Archive";
             this.viewArchiveToolStripMenuItem.Click += new System.EventHandler(this.viewArchiveToolStripMenuItem_Click);
             // 
+            // manageUsersToolStripMenuItem
+            // 
+            this.manageUsersToolStripMenuItem.Name = "manageUsersToolStripMenuItem";
+            this.manageUsersToolStripMenuItem.Size = new System.Drawing.Size(105, 21);
+            this.manageUsersToolStripMenuItem.Text = "Manage Users";
+            this.manageUsersToolStripMenuItem.Click += new System.EventHandler(this.manageUsersToolStripMenuItem_Click);
+            // 
             // MainWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -97,6 +106,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "MainWindow";
             this.Text = "Car Rental Management System";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainWindow_FormClosing_1);
             this.Load += new System.EventHandler(this.MainWindow_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
@@ -113,5 +123,6 @@
         private System.Windows.Forms.ToolStripMenuItem addRentalRecordToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem editRentalRecordToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem viewArchiveToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem manageUsersToolStripMenuItem;
     }
 }

@@ -13,20 +13,25 @@ namespace CarRentalApp
     public partial class MainWindow : Form
     {
         private Login _login;
+        public string _roleName;
         public MainWindow()
         {
             InitializeComponent();
         }
 
-        public MainWindow(Login login)
+        public MainWindow(Login login, string roleShortName)
         {
             InitializeComponent();
             _login = login;
+            _roleName = roleShortName;
         }
 
         private void MainWindow_Load(object sender, EventArgs e)
         {
-
+            if (_roleName != "admin")
+            {
+                manageUsersToolStripMenuItem.Visible = false;
+            }
         }
 
         private void lblTitle_Click(object sender, EventArgs e)
@@ -66,14 +71,38 @@ namespace CarRentalApp
 
         private void viewArchiveToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            var manageRentalRecords = new ManageRentalRecords();
-            manageRentalRecords.MdiParent = this;
-            manageRentalRecords.Show();
+            //if (!Utils.FormIsOpen("ManageRentalRecords"))
+            var OpenForms = Application.OpenForms.Cast<Form>();
+            var isOpen = OpenForms.Any(q => q.Name == "ManageRentalRecords");
+            if (!isOpen)
+            {
+                var manageRentalRecords = new ManageRentalRecords();
+                manageRentalRecords.MdiParent = this;
+                manageRentalRecords.Show();
+            }
         }
 
         private void MainWindow_FormClosing(object sender, FormClosingEventArgs e)
         {
             _login.Close();
+        }
+
+        private void MainWindow_FormClosing_1(object sender, FormClosingEventArgs e)
+        {
+            _login.Close();
+        }
+
+        private void manageUsersToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            //if (!Utils.FormIsOpen("ManageUsers"))
+            var OpenForms = Application.OpenForms.Cast<Form>();
+            var isOpen = OpenForms.Any(q => q.Name == "ManageUsers");
+            if (!isOpen)
+            {
+                var manageUsers = new ManageUsers();
+                manageUsers.MdiParent = this;
+                manageUsers.Show();
+            }
         }
     }
 }
