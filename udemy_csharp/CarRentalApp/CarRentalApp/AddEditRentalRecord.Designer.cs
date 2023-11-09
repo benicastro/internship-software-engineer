@@ -40,7 +40,6 @@
             this.btnSubmit = new System.Windows.Forms.Button();
             this.tbCost = new System.Windows.Forms.TextBox();
             this.lblCost = new System.Windows.Forms.Label();
-            this.btnMainWindow = new System.Windows.Forms.Button();
             this.lblRecordId = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -167,17 +166,6 @@
             this.lblCost.Text = "Cost";
             this.lblCost.Click += new System.EventHandler(this.lblCost_Click);
             // 
-            // btnMainWindow
-            // 
-            this.btnMainWindow.Font = new System.Drawing.Font("Arial", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMainWindow.Location = new System.Drawing.Point(12, 491);
-            this.btnMainWindow.Name = "btnMainWindow";
-            this.btnMainWindow.Size = new System.Drawing.Size(237, 45);
-            this.btnMainWindow.TabIndex = 12;
-            this.btnMainWindow.Text = "Launch Main Window";
-            this.btnMainWindow.UseVisualStyleBackColor = true;
-            this.btnMainWindow.Click += new System.EventHandler(this.btnMainWindow_Click);
-            // 
             // lblRecordId
             // 
             this.lblRecordId.AutoSize = true;
@@ -193,7 +181,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(945, 548);
             this.Controls.Add(this.lblRecordId);
-            this.Controls.Add(this.btnMainWindow);
             this.Controls.Add(this.lblCost);
             this.Controls.Add(this.tbCost);
             this.Controls.Add(this.btnSubmit);
@@ -228,7 +215,6 @@
         private System.Windows.Forms.Button btnSubmit;
         private System.Windows.Forms.TextBox tbCost;
         private System.Windows.Forms.Label lblCost;
-        private System.Windows.Forms.Button btnMainWindow;
         private System.Windows.Forms.Label lblRecordId;
     }
 }

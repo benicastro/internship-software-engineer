@@ -46,6 +46,7 @@
             this.btnRefresh.TabIndex = 17;
             this.btnRefresh.Text = "Refresh";
             this.btnRefresh.UseVisualStyleBackColor = true;
+            this.btnRefresh.Click += new System.EventHandler(this.btnRefresh_Click);
             // 
             // btnDeactivateUser
             // 
@@ -112,6 +113,7 @@
             this.Controls.Add(this.gvUsersList);
             this.Name = "ManageUsers";
             this.Text = "Manage Users";
+            this.Load += new System.EventHandler(this.ManageUsers_Load);
             ((System.ComponentModel.ISupportInitialize)(this.gvUsersList)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

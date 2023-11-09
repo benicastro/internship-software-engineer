@@ -13,9 +13,12 @@ namespace CarRentalApp
     public partial class AddUser : Form
     {
         private readonly CarRentalEntities _db;
-        public AddUser()
+        private ManageUsers _manageUsers;
+        public AddUser(ManageUsers manageUsers)
         {
             InitializeComponent();
+            _db = new CarRentalEntities();
+            _manageUsers = manageUsers;
         }
 
         private void AddUser_Load(object sender, EventArgs e)
@@ -33,17 +36,37 @@ namespace CarRentalApp
 
         private void btnSubmit_Click(object sender, EventArgs e)
         {
-            var username = tbUsername.Text;
-            var roleId = (int)cbRoles.SelectedValue;
-            var password = Utils.DefaultHashPassword();
-            var user = new User
+            try
             {
-                username = username,
-                password = password,
-                isActive = true
-            };
-            _db.Users.Add(user);
-            _db.SaveChanges();
+                var username = tbUsername.Text;
+                var roleId = (int)cbRoles.SelectedValue;
+                var password = Utils.DefaultHashPassword();
+                var user = new User
+                {
+                    username = username,
+                    password = password,
+                    isActive = true
+                };
+                _db.Users.Add(user);
+                _db.SaveChanges();
+
+                var userId = user.id;
+                var userRole = new UserRole
+                {
+                    roleId = roleId,
+                    userId = userId
+                };
+                _db.UserRoles.Add(userRole);
+                _db.SaveChanges();
+
+                MessageBox.Show("New user has been added successfully.");
+                _manageUsers.PopulateGrid();
+                Close();
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("An error has occured.");
+            }
         }
     }
 }
