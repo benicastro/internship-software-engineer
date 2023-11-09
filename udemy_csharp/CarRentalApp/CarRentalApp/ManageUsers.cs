@@ -21,7 +21,12 @@ namespace CarRentalApp
 
         private void btnAddUser_Click(object sender, EventArgs e)
         {
-
+            if (!Utils.FormIsOpen("AddUser"))
+            {
+                var addUser = new AddUser();
+                addUser.MdiParent = this.MdiParent;
+                addUser.Show();
+            }
         }
 
         private void btnReserPassword_Click(object sender, EventArgs e)
@@ -33,9 +38,10 @@ namespace CarRentalApp
 
                 // query database for record
                 var user = _db.Users.FirstOrDefault(q => q.id == id);
-                var genericPassword = "Password@123";
-                var hashedPassword = Utils.HashPassword(genericPassword);
-                user.password = hashedPassword;
+                //var genericPassword = "Password@123";
+                //var hashedPassword = Utils.HashPassword(genericPassword);
+                var hashed_password = Utils.DefaultHashPassword();
+                user.password = hashed_password;
                 _db.SaveChanges();
 
                 MessageBox.Show($"{user.username}'s password has been reset.");

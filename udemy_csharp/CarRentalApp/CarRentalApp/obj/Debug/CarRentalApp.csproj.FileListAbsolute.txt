@@ -19,3 +19,4 @@ C:\Users\bened\Desktop\internship\udemy_csharp\CarRentalApp\CarRentalApp\obj\Deb
 C:\Users\bened\Desktop\internship\udemy_csharp\CarRentalApp\CarRentalApp\obj\Debug\CarRentalApp.AddEditRentalRecord.resources
 C:\Users\bened\Desktop\internship\udemy_csharp\CarRentalApp\CarRentalApp\obj\Debug\CarRentalApp.Login.resources
 C:\Users\bened\Desktop\internship\udemy_csharp\CarRentalApp\CarRentalApp\obj\Debug\CarRentalApp.ManageUsers.resources
+C:\Users\bened\Desktop\internship\udemy_csharp\CarRentalApp\CarRentalApp\obj\Debug\CarRentalApp.AddUser.resources
