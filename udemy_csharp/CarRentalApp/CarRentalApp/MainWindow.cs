@@ -30,6 +30,8 @@ namespace CarRentalApp
 
         private void MainWindow_Load(object sender, EventArgs e)
         {
+            var username = _user.username;
+            tsiLoginText.Text = $"Logged In As: {username}";
             if (_roleName != "admin")
             {
                 manageUsersToolStripMenuItem.Visible = false;
