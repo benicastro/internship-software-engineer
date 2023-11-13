@@ -1,0 +1,14 @@
+C:\Users\bened\Desktop\internship\csharp_exercises\array_operations\bin\Debug\net7.0\array_operations.exe
+C:\Users\bened\Desktop\internship\csharp_exercises\array_operations\bin\Debug\net7.0\array_operations.deps.json
+C:\Users\bened\Desktop\internship\csharp_exercises\array_operations\bin\Debug\net7.0\array_operations.runtimeconfig.json
+C:\Users\bened\Desktop\internship\csharp_exercises\array_operations\bin\Debug\net7.0\array_operations.dll
+C:\Users\bened\Desktop\internship\csharp_exercises\array_operations\bin\Debug\net7.0\array_operations.pdb
+C:\Users\bened\Desktop\internship\csharp_exercises\array_operations\obj\Debug\net7.0\array_operations.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bened\Desktop\internship\csharp_exercises\array_operations\obj\Debug\net7.0\array_operations.AssemblyInfoInputs.cache
+C:\Users\bened\Desktop\internship\csharp_exercises\array_operations\obj\Debug\net7.0\array_operations.AssemblyInfo.cs
+C:\Users\bened\Desktop\internship\csharp_exercises\array_operations\obj\Debug\net7.0\array_operations.csproj.CoreCompileInputs.cache
+C:\Users\bened\Desktop\internship\csharp_exercises\array_operations\obj\Debug\net7.0\array_operations.dll
+C:\Users\bened\Desktop\internship\csharp_exercises\array_operations\obj\Debug\net7.0\refint\array_operations.dll
+C:\Users\bened\Desktop\internship\csharp_exercises\array_operations\obj\Debug\net7.0\array_operations.pdb
+C:\Users\bened\Desktop\internship\csharp_exercises\array_operations\obj\Debug\net7.0\array_operations.genruntimeconfig.cache
+C:\Users\bened\Desktop\internship\csharp_exercises\array_operations\obj\Debug\net7.0\ref\array_operations.dll
