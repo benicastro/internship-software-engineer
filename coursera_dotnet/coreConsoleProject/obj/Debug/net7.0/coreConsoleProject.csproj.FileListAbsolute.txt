@@ -1,0 +1,14 @@
+C:\Users\bened\Desktop\internship\coursera_dotnet\coreConsoleProject\bin\Debug\net7.0\coreConsoleProject.exe
+C:\Users\bened\Desktop\internship\coursera_dotnet\coreConsoleProject\bin\Debug\net7.0\coreConsoleProject.deps.json
+C:\Users\bened\Desktop\internship\coursera_dotnet\coreConsoleProject\bin\Debug\net7.0\coreConsoleProject.runtimeconfig.json
+C:\Users\bened\Desktop\internship\coursera_dotnet\coreConsoleProject\bin\Debug\net7.0\coreConsoleProject.dll
+C:\Users\bened\Desktop\internship\coursera_dotnet\coreConsoleProject\bin\Debug\net7.0\coreConsoleProject.pdb
+C:\Users\bened\Desktop\internship\coursera_dotnet\coreConsoleProject\obj\Debug\net7.0\coreConsoleProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bened\Desktop\internship\coursera_dotnet\coreConsoleProject\obj\Debug\net7.0\coreConsoleProject.AssemblyInfoInputs.cache
+C:\Users\bened\Desktop\internship\coursera_dotnet\coreConsoleProject\obj\Debug\net7.0\coreConsoleProject.AssemblyInfo.cs
+C:\Users\bened\Desktop\internship\coursera_dotnet\coreConsoleProject\obj\Debug\net7.0\coreConsoleProject.csproj.CoreCompileInputs.cache
+C:\Users\bened\Desktop\internship\coursera_dotnet\coreConsoleProject\obj\Debug\net7.0\coreConsoleProject.dll
+C:\Users\bened\Desktop\internship\coursera_dotnet\coreConsoleProject\obj\Debug\net7.0\refint\coreConsoleProject.dll
+C:\Users\bened\Desktop\internship\coursera_dotnet\coreConsoleProject\obj\Debug\net7.0\coreConsoleProject.pdb
+C:\Users\bened\Desktop\internship\coursera_dotnet\coreConsoleProject\obj\Debug\net7.0\coreConsoleProject.genruntimeconfig.cache
+C:\Users\bened\Desktop\internship\coursera_dotnet\coreConsoleProject\obj\Debug\net7.0\ref\coreConsoleProject.dll
