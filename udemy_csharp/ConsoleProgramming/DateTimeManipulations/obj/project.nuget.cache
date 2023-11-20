@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3WJKeLpT3bynYfl6E3rYSVpUGGOCQCe38LZ2knkducXliPut0/EmdsRwHrp/d4JYfHj/yr4VPwAgkavWCbLZWg==",
+  "dgSpecHash": "GSqRp0O78Yj2Q3BTdcyqE0xNAopRme839xn+BeGksrSy5cnfwDrIIKgmH5RRhCOIEWQ1JT9d6OjtPc3AEMdJ+g==",
   "success": true,
   "projectFilePath": "C:\\Users\\bened\\Desktop\\internship\\udemy_csharp\\ConsoleProgramming\\DateTimeManipulations\\DateTimeManipulations.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\bened\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.24\\microsoft.windowsdesktop.app.ref.6.0.24.nupkg.sha512",
-    "C:\\Users\\bened\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.24\\microsoft.netcore.app.ref.6.0.24.nupkg.sha512",
-    "C:\\Users\\bened\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.24\\microsoft.aspnetcore.app.ref.6.0.24.nupkg.sha512",
-    "C:\\Users\\bened\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.24\\microsoft.netcore.app.host.win-x64.6.0.24.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

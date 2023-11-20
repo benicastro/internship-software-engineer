@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lFe9w667LXoQkxxalc6Q9HBJajaY0vhgJ9Ff5KCTBjQlTaXX9kfnIUCRrN0QPiL8G1BykCt78cKUhmOvAg8KYg==",
+  "dgSpecHash": "b/oyAANIH9LhoJCwtJOkH6EbAubd0cDcnBCvpgyZ2tvpGNMBL3cJDyZOzE1EJISsMUUjZ0Ye7jW/vFsXpsPuZA==",
   "success": true,
   "projectFilePath": "C:\\Users\\bened\\Desktop\\internship\\udemy_csharp\\ConsoleProgramming\\VariablesAndDataTypes\\VariablesAndDataTypes.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\bened\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.24\\microsoft.windowsdesktop.app.ref.6.0.24.nupkg.sha512",
-    "C:\\Users\\bened\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.24\\microsoft.netcore.app.ref.6.0.24.nupkg.sha512",
-    "C:\\Users\\bened\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.24\\microsoft.aspnetcore.app.ref.6.0.24.nupkg.sha512",
-    "C:\\Users\\bened\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.24\\microsoft.netcore.app.host.win-x64.6.0.24.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

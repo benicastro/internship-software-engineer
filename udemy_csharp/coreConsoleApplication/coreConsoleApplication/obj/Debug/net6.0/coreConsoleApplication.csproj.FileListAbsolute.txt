@@ -1,0 +1,14 @@
+C:\Users\bened\Desktop\internship\udemy_csharp\coreConsoleApplication\coreConsoleApplication\bin\Debug\net6.0\coreConsoleApplication.exe
+C:\Users\bened\Desktop\internship\udemy_csharp\coreConsoleApplication\coreConsoleApplication\bin\Debug\net6.0\coreConsoleApplication.deps.json
+C:\Users\bened\Desktop\internship\udemy_csharp\coreConsoleApplication\coreConsoleApplication\bin\Debug\net6.0\coreConsoleApplication.runtimeconfig.json
+C:\Users\bened\Desktop\internship\udemy_csharp\coreConsoleApplication\coreConsoleApplication\bin\Debug\net6.0\coreConsoleApplication.dll
+C:\Users\bened\Desktop\internship\udemy_csharp\coreConsoleApplication\coreConsoleApplication\bin\Debug\net6.0\coreConsoleApplication.pdb
+C:\Users\bened\Desktop\internship\udemy_csharp\coreConsoleApplication\coreConsoleApplication\obj\Debug\net6.0\coreConsoleApplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bened\Desktop\internship\udemy_csharp\coreConsoleApplication\coreConsoleApplication\obj\Debug\net6.0\coreConsoleApplication.AssemblyInfoInputs.cache
+C:\Users\bened\Desktop\internship\udemy_csharp\coreConsoleApplication\coreConsoleApplication\obj\Debug\net6.0\coreConsoleApplication.AssemblyInfo.cs
+C:\Users\bened\Desktop\internship\udemy_csharp\coreConsoleApplication\coreConsoleApplication\obj\Debug\net6.0\coreConsoleApplication.csproj.CoreCompileInputs.cache
+C:\Users\bened\Desktop\internship\udemy_csharp\coreConsoleApplication\coreConsoleApplication\obj\Debug\net6.0\coreConsoleApplication.dll
+C:\Users\bened\Desktop\internship\udemy_csharp\coreConsoleApplication\coreConsoleApplication\obj\Debug\net6.0\refint\coreConsoleApplication.dll
+C:\Users\bened\Desktop\internship\udemy_csharp\coreConsoleApplication\coreConsoleApplication\obj\Debug\net6.0\coreConsoleApplication.pdb
+C:\Users\bened\Desktop\internship\udemy_csharp\coreConsoleApplication\coreConsoleApplication\obj\Debug\net6.0\coreConsoleApplication.genruntimeconfig.cache
+C:\Users\bened\Desktop\internship\udemy_csharp\coreConsoleApplication\coreConsoleApplication\obj\Debug\net6.0\ref\coreConsoleApplication.dll

@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0+OwBCxaIG/qlX6FwpD97u7o9YPLl5f6H9gSLrdYpT+n3nFBGfbadeLznlG2qer007xa+LHNUSM9eVA2TaPbDA==",
+  "dgSpecHash": "zGwKhzQ6uzF1GUcAbroOLaqOTFMRmWoE9BMWAsTBRKXTvEzRzyQtt3SvvXNEAdTCQpaDo15Md48vJ65xdS2QmA==",
   "success": true,
   "projectFilePath": "C:\\Users\\bened\\Desktop\\internship\\udemy_csharp\\ConsoleProgramming\\StringManipulation\\StringManipulation.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\bened\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.24\\microsoft.windowsdesktop.app.ref.6.0.24.nupkg.sha512",
-    "C:\\Users\\bened\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.24\\microsoft.netcore.app.ref.6.0.24.nupkg.sha512",
-    "C:\\Users\\bened\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.24\\microsoft.aspnetcore.app.ref.6.0.24.nupkg.sha512",
-    "C:\\Users\\bened\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.24\\microsoft.netcore.app.host.win-x64.6.0.24.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

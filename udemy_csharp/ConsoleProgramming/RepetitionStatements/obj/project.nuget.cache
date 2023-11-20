@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hnLr2x4XRw5UDlV7ajl6kkac9rToxkz+9fhBdnSrXZ8ggUkcT0eu0VyAg8JPpyD6V+eYZrPoM6MjqXc8t9zXWA==",
+  "dgSpecHash": "2H4a2uiUP0W6CLzKSYT4QFxatz3zzHb2hrzTdrIDcHGOWaQZPVREOcCQJwEZ6vQ1ys8ZNzTv8kz/AeVYkPR4kQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\bened\\Desktop\\internship\\udemy_csharp\\ConsoleProgramming\\RepetitionStatements\\RepetitionStatements.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\bened\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.24\\microsoft.windowsdesktop.app.ref.6.0.24.nupkg.sha512",
-    "C:\\Users\\bened\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.24\\microsoft.netcore.app.ref.6.0.24.nupkg.sha512",
-    "C:\\Users\\bened\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.24\\microsoft.aspnetcore.app.ref.6.0.24.nupkg.sha512",
-    "C:\\Users\\bened\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.24\\microsoft.netcore.app.host.win-x64.6.0.24.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

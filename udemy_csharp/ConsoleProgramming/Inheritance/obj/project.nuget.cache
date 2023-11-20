@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vcYdYf7l8LIxMheCbkLveFrldZHZ98GtuWW9AQSHInNxbemdXTvFuPhPuGyEn6vyutW34S7GxiJUbYvmiziDRA==",
+  "dgSpecHash": "JH232H9DmbQuCxtUX1OHN1UZc+YHBLBCp49xaPIE53fCQ1hcEgMXY4kMQMF5TAZBLDXiMSm9WHfNf7eL+tnQIA==",
   "success": true,
   "projectFilePath": "C:\\Users\\bened\\Desktop\\internship\\udemy_csharp\\ConsoleProgramming\\Inheritance\\Inheritance.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\bened\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.24\\microsoft.windowsdesktop.app.ref.6.0.24.nupkg.sha512",
-    "C:\\Users\\bened\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.24\\microsoft.netcore.app.ref.6.0.24.nupkg.sha512",
-    "C:\\Users\\bened\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.24\\microsoft.aspnetcore.app.ref.6.0.24.nupkg.sha512",
-    "C:\\Users\\bened\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.24\\microsoft.netcore.app.host.win-x64.6.0.24.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }
