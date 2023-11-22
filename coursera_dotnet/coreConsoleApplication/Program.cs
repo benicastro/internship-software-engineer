@@ -26,7 +26,20 @@ using coreConsoleApplication;
 //savingAcc.withdraw();
 //savingAcc.deposit();
 
-Console.WriteLine(Calculate.increment());
-Console.WriteLine(Calculate.increment());
-Console.WriteLine(Calculate.increment());
-Console.WriteLine(Calculate.decrement());
+//Console.WriteLine(Calculate.increment());
+//Console.WriteLine(Calculate.increment());
+//Console.WriteLine(Calculate.increment());
+//Console.WriteLine(Calculate.decrement());
+
+// Demonstrating Extension Methods
+
+//int number = 100;
+//bool result = number.IsGreaterThan(100);
+//Console.WriteLine(result);
+
+// Partial Classes and Methods
+
+var employee = new Employee();
+Console.WriteLine(employee.EmpId);
+Console.WriteLine(employee.EmpName);
+employee.DisplayDetails();
