@@ -8,20 +8,25 @@
 
 using coreConsoleApplication;
 
-SavingsAccount savingsAccount = new SavingsAccount();
+//SavingsAccount savingsAccount = new SavingsAccount();
 
-savingsAccount.getMessage();
+//savingsAccount.getMessage();
 
-savingsAccount.deposit();
-savingsAccount.withdraw();
-savingsAccount.balance();
+//savingsAccount.deposit();
+//savingsAccount.withdraw();
+//savingsAccount.balance();
 
-Console.WriteLine();
+//Console.WriteLine();
 
-SavingsAcc savingAcc = new SavingsAcc();
+//SavingsAcc savingAcc = new SavingsAcc();
 
-savingAcc.openAccount();
-savingAcc.closeAccount();
-savingAcc.balance();
-savingAcc.withdraw();
-savingAcc.deposit();
+//savingAcc.openAccount();
+//savingAcc.closeAccount();
+//savingAcc.balance();
+//savingAcc.withdraw();
+//savingAcc.deposit();
+
+Console.WriteLine(Calculate.increment());
+Console.WriteLine(Calculate.increment());
+Console.WriteLine(Calculate.increment());
+Console.WriteLine(Calculate.decrement());
