@@ -39,7 +39,17 @@ using coreConsoleApplication;
 
 // Partial Classes and Methods
 
-var employee = new Employee();
-Console.WriteLine(employee.EmpId);
-Console.WriteLine(employee.EmpName);
-employee.DisplayDetails();
+//var employee = new Employee();
+//Console.WriteLine(employee.EmpId);
+//Console.WriteLine(employee.EmpName);
+//employee.DisplayDetails();
+
+// Properties
+
+User user = new User();
+user.Name = "Test";
+user.Age = 30;
+
+Console.WriteLine(user.Name);
+Console.WriteLine(user.Age);
+Console.WriteLine(user.CompanyName);
