@@ -74,5 +74,36 @@ using coreConsoleApplication;
 
 // Exception Handling
 
-Calculation calculation = new Calculation();
-calculation.calculate();
+//Calculation calculation = new Calculation();
+//calculation.calculate();
+
+// Anonymous Types
+
+var obj = new
+{
+    firstName = "Beni",
+    lastName = "Castro",
+    age = 30,
+    address = new
+    {
+        cityName = "Cabanatuan",
+        provinceName = "Nueva Ecija"
+    },
+    projects = new[]
+    {
+        new { projectName = "C#", projectDuration = "20 hours"},
+        new { projectName = "Python", projectDuration = "20 hours"},
+        new { projectName = "SQL", projectDuration = "20 hours"}
+    }
+};
+
+Console.WriteLine(obj.firstName);
+Console.WriteLine(obj.lastName);
+Console.WriteLine(obj.age);
+Console.WriteLine(obj.address.cityName);
+Console.WriteLine(obj.address.provinceName);
+
+foreach (var project in obj.projects)
+{
+    Console.WriteLine(project.projectName + ":" + project.projectDuration);
+}
