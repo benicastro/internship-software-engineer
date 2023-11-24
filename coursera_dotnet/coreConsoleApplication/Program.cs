@@ -119,10 +119,23 @@ using coreConsoleApplication;
 //c2(100);
 //Console.WriteLine(DelegateExample.getNumber());
 
-CalculateDelegate c1 = new CalculateDelegate(DelegateExample.addition);
-c1(100);
-Console.WriteLine(DelegateExample.getNumber());
-c1 += new CalculateDelegate(DelegateExample.multiplication);
+//CalculateDelegate c1 = new CalculateDelegate(DelegateExample.addition);
+//c1(100);
+//Console.WriteLine(DelegateExample.getNumber());
+//c1 += new CalculateDelegate(DelegateExample.multiplication);
 
-c1(100);
-Console.WriteLine(DelegateExample.getNumber());
+//c1(100);
+//Console.WriteLine(DelegateExample.getNumber());
+
+// Events
+
+// Subscriber Model
+EventsExample events = new EventsExample();
+events.event_OddNumber += new EventsExample.delegate_OddNumber(EventMessage);
+events.addition();
+Console.ReadLine();
+
+static void EventMessage()
+{
+    Console.WriteLine("Event Executed: Odd Number");
+}
