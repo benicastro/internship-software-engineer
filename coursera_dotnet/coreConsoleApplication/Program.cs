@@ -75,4 +75,4 @@ using coreConsoleApplication;
 // Exception Handling
 
 Calculation calculation = new Calculation();
-calculation.calculate(100, 0);
+calculation.calculate();
