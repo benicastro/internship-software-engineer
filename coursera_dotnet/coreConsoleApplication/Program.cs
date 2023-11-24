@@ -79,31 +79,50 @@ using coreConsoleApplication;
 
 // Anonymous Types
 
-var obj = new
-{
-    firstName = "Beni",
-    lastName = "Castro",
-    age = 30,
-    address = new
-    {
-        cityName = "Cabanatuan",
-        provinceName = "Nueva Ecija"
-    },
-    projects = new[]
-    {
-        new { projectName = "C#", projectDuration = "20 hours"},
-        new { projectName = "Python", projectDuration = "20 hours"},
-        new { projectName = "SQL", projectDuration = "20 hours"}
-    }
-};
+//var obj = new
+//{
+//    firstName = "Beni",
+//    lastName = "Castro",
+//    age = 30,
+//    address = new
+//    {
+//        cityName = "Cabanatuan",
+//        provinceName = "Nueva Ecija"
+//    },
+//    projects = new[]
+//    {
+//        new { projectName = "C#", projectDuration = "20 hours"},
+//        new { projectName = "Python", projectDuration = "20 hours"},
+//        new { projectName = "SQL", projectDuration = "20 hours"}
+//    }
+//};
 
-Console.WriteLine(obj.firstName);
-Console.WriteLine(obj.lastName);
-Console.WriteLine(obj.age);
-Console.WriteLine(obj.address.cityName);
-Console.WriteLine(obj.address.provinceName);
+//Console.WriteLine(obj.firstName);
+//Console.WriteLine(obj.lastName);
+//Console.WriteLine(obj.age);
+//Console.WriteLine(obj.address.cityName);
+//Console.WriteLine(obj.address.provinceName);
 
-foreach (var project in obj.projects)
-{
-    Console.WriteLine(project.projectName + ":" + project.projectDuration);
-}
+//foreach (var project in obj.projects)
+//{
+//    Console.WriteLine(project.projectName + ":" + project.projectDuration);
+//}
+
+// Delegates
+
+//CalculateDelegate c1 = new CalculateDelegate(DelegateExample.addition);
+//CalculateDelegate c2 = new CalculateDelegate(DelegateExample.multiplication);
+
+//c1(100);
+//Console.WriteLine(DelegateExample.getNumber());
+
+//c2(100);
+//Console.WriteLine(DelegateExample.getNumber());
+
+CalculateDelegate c1 = new CalculateDelegate(DelegateExample.addition);
+c1(100);
+Console.WriteLine(DelegateExample.getNumber());
+c1 += new CalculateDelegate(DelegateExample.multiplication);
+
+c1(100);
+Console.WriteLine(DelegateExample.getNumber());
