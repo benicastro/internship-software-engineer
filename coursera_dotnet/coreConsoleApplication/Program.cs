@@ -130,12 +130,18 @@ using coreConsoleApplication;
 // Events
 
 // Subscriber Model
-EventsExample events = new EventsExample();
-events.event_OddNumber += new EventsExample.delegate_OddNumber(EventMessage);
-events.addition();
-Console.ReadLine();
+//EventsExample events = new EventsExample();
+//events.event_OddNumber += new EventsExample.delegate_OddNumber(EventMessage);
+//events.addition();
+//Console.ReadLine();
 
-static void EventMessage()
-{
-    Console.WriteLine("Event Executed: Odd Number");
-}
+//static void EventMessage()
+//{
+//    Console.WriteLine("Event Executed: Odd Number");
+//}
+
+// Anonymous Methods
+
+//AnonymousMethodExample.InvokeMethod();
+
+// Lambda Expression
