@@ -7,6 +7,7 @@
 
 
 using coreConsoleApplication;
+using System.Linq.Expressions;
 
 //SavingsAccount savingsAccount = new SavingsAccount();
 
@@ -145,3 +146,25 @@ using coreConsoleApplication;
 //AnonymousMethodExample.InvokeMethod();
 
 // Lambda Expression
+
+//var numbers = new int[] { 1, 2, 3, 4, 5, 5, 6, 5 };
+//var count = numbers.Count(x => x==5);
+//Console.WriteLine(count);
+
+
+//List<int> numbers2 = new List<int> { 1, 2, 3, 4, 5, 5, 6, 5 };
+//count = numbers.Count(x => { return x==5; });
+//Console.WriteLine(count);
+
+// Expression Tree
+
+Func<string, string, string> stringJoins = (str1, str2)  => string.Concat(str1, str2);
+
+Expression< Func<string, string, string>> stringJoinExpr = (str1, str2) => string.Concat(str1, str2);
+
+var func = stringJoinExpr.Compile();
+var result = func("hello", "world");
+Console.WriteLine(result);
+
+result = stringJoinExpr.Compile()("hello", "world");
+    Console.WriteLine(result);
