@@ -1,0 +1,10 @@
+C:\Users\bened\Desktop\internship\InternshipPetProject\InternshipPetProject\bin\Debug\InternshipPetProject.exe.config
+C:\Users\bened\Desktop\internship\InternshipPetProject\InternshipPetProject\bin\Debug\InternshipPetProject.exe
+C:\Users\bened\Desktop\internship\InternshipPetProject\InternshipPetProject\bin\Debug\InternshipPetProject.pdb
+C:\Users\bened\Desktop\internship\InternshipPetProject\InternshipPetProject\obj\Debug\InternshipPetProject.csproj.AssemblyReference.cache
+C:\Users\bened\Desktop\internship\InternshipPetProject\InternshipPetProject\obj\Debug\InternshipPetProject.Properties.Resources.resources
+C:\Users\bened\Desktop\internship\InternshipPetProject\InternshipPetProject\obj\Debug\InternshipPetProject.csproj.GenerateResource.cache
+C:\Users\bened\Desktop\internship\InternshipPetProject\InternshipPetProject\obj\Debug\InternshipPetProject.csproj.CoreCompileInputs.cache
+C:\Users\bened\Desktop\internship\InternshipPetProject\InternshipPetProject\obj\Debug\InternshipPetProject.exe
+C:\Users\bened\Desktop\internship\InternshipPetProject\InternshipPetProject\obj\Debug\InternshipPetProject.pdb
+C:\Users\bened\Desktop\internship\InternshipPetProject\InternshipPetProject\obj\Debug\InternshipPetProject.Form1.resources
