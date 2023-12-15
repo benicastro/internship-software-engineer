@@ -10,16 +10,26 @@ using System.Windows.Forms;
 
 namespace InternshipPetProject
 {
-    public partial class Form1 : Form
+    public partial class ServingIntel : Form
     {
-        public Form1()
+        public ServingIntel()
         {
             InitializeComponent();
         }
 
         private void btnClose_Click(object sender, EventArgs e)
         {
-            this.Close();
+
         }
+
+        private void ServingIntel_Load(object sender, EventArgs e)
+        {
+            this.MaximizeBox = false;
+        }
+
+        //    private void btnClose_Click(object sender, EventArgs e)
+        //    {
+        //        this.Close();
+        //    }
     }
 }

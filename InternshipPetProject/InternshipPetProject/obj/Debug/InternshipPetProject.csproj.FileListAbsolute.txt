@@ -7,4 +7,4 @@ C:\Users\bened\Desktop\internship\InternshipPetProject\InternshipPetProject\obj\
 C:\Users\bened\Desktop\internship\InternshipPetProject\InternshipPetProject\obj\Debug\InternshipPetProject.csproj.CoreCompileInputs.cache
 C:\Users\bened\Desktop\internship\InternshipPetProject\InternshipPetProject\obj\Debug\InternshipPetProject.exe
 C:\Users\bened\Desktop\internship\InternshipPetProject\InternshipPetProject\obj\Debug\InternshipPetProject.pdb
-C:\Users\bened\Desktop\internship\InternshipPetProject\InternshipPetProject\obj\Debug\InternshipPetProject.Form1.resources
+C:\Users\bened\Desktop\internship\InternshipPetProject\InternshipPetProject\obj\Debug\InternshipPetProject.ServingIntel.resources
