@@ -64,10 +64,9 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.tbPassword.Font = new System.Drawing.Font("Segoe UI", 10.76635F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbPassword.Location = new System.Drawing.Point(53, 228);
-            this.tbPassword.Multiline = true;
             this.tbPassword.Name = "tbPassword";
             this.tbPassword.PasswordChar = '*';
-            this.tbPassword.Size = new System.Drawing.Size(613, 31);
+            this.tbPassword.Size = new System.Drawing.Size(613, 29);
             this.tbPassword.TabIndex = 4;
             // 
             // lblPassword
@@ -87,9 +86,8 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.tbEmail.Font = new System.Drawing.Font("Segoe UI", 10.76635F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbEmail.Location = new System.Drawing.Point(53, 109);
-            this.tbEmail.Multiline = true;
             this.tbEmail.Name = "tbEmail";
-            this.tbEmail.Size = new System.Drawing.Size(613, 31);
+            this.tbEmail.Size = new System.Drawing.Size(613, 29);
             this.tbEmail.TabIndex = 2;
             // 
             // lblEmail
