@@ -26,26 +26,40 @@ namespace InternshipPetProject
             this.MaximizeBox = false;
 
             var users = _db.Users.ToList();
-            
-            
         }
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            string email = tbEmail.Text;
-            if (Utils.IsValidEmail(email) && Utils.IsValidEmailDomain(email))
+            try
             {
-                MessageBox.Show($"Ok!\n\r" +
-                $"Thanks for logging in {email}.");
-            }
-            else
-            {
-                MessageBox.Show("Please provide a valid email address.");
-            }
+                var email = getUser();
+                var password = tbPassword.Text;
 
-            
+                var user = _db.Users.FirstOrDefault(q => q.emailAddress == email && q.password == password);
+                if (user == null)
+                {
+                    MessageBox.Show("Please provide valid credentials.",
+                            "Warning!",
+                            MessageBoxButtons.OK,
+                            MessageBoxIcon.Stop
+                            );
+                }
+                else 
+                {
+                    var mainWindow = new MainWindow(this);
+                    mainWindow.Show();
+                    Hide();
+                }
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Something went wrong. Please try again.");
+            }
         }
-
-        
+        public string getUser()
+        {
+            var email = tbEmail.Text.Trim();
+            return email;
+        }
     }
 }

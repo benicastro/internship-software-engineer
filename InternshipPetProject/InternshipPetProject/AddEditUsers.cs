@@ -7,35 +7,42 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
 
 namespace InternshipPetProject
 {
     public partial class AddEditUsers : Form
     {
+        private ManageUsers _manageUsers;
         private readonly ProjectUsersEntities _db;
         private bool isEditMode;
-        public AddEditUsers()
+        public AddEditUsers(ManageUsers manageUsers)
         {
             InitializeComponent();
+            this.Text = "Add User Record";
             btnManage.Text = "ADD";
             isEditMode = false;
             _db = new ProjectUsersEntities();
+            this._manageUsers = manageUsers;
         }
 
-        public AddEditUsers(User userToEdit)
+        public AddEditUsers(ManageUsers manageUsers, User userToEdit)
         {
             InitializeComponent();
+            this.Text = "Edit User Record";
             btnManage.Text = "EDIT";
             isEditMode = true;
             PopulateFields(userToEdit);
+            _db = new ProjectUsersEntities();
+            this._manageUsers = manageUsers;
         }
 
         private void PopulateFields(User user)
         {
             lblId.Text = user.id.ToString();
             tbEmail.Text = user.emailAddress;
-            tbPassword.Text = user.password;
-            tbPassword2.Text = user.password;
+            //tbPassword.Text = user.password;
+            //tbPassword2.Text = user.password;
         }
 
         private void btnCancel_Click(object sender, EventArgs e)
@@ -45,27 +52,65 @@ namespace InternshipPetProject
 
         private void btnManage_Click(object sender, EventArgs e)
         {
-            if (isEditMode)
-            {
-                var id = int.Parse(lblId.Text);
-                var user = _db.Users.FirstOrDefault(q => q.id == id);
-                user.emailAddress = tbEmail.Text;
-                user.password = tbPassword.Text;
 
-                _db.SaveChanges();
-                this.Close();
+            if (tbPassword.Text != tbPassword2.Text)
+            {
+                MessageBox.Show("Passwords DO NOT match!",
+                        "Warning!",
+                        MessageBoxButtons.OK,
+                        MessageBoxIcon.Stop
+                        );
             }
             else
             {
-                var newUser = new User
+                if (Utils.IsValidEmail(tbEmail.Text) && Utils.IsValidEmailDomain(tbEmail.Text))
                 {
-                    emailAddress = tbEmail.Text,
-                    password = tbPassword.Text,
-                };
+                    if (isEditMode)
+                    {
+                        var id = int.Parse(lblId.Text);
+                        var user = _db.Users.FirstOrDefault(q => q.id == id);
+                        user.emailAddress = tbEmail.Text.Trim();
+                        user.password = tbPassword.Text;
 
-                _db.Users.Add(newUser);
-                _db.SaveChanges();
-                this.Close();
+                        _db.SaveChanges();
+
+                        MessageBox.Show($"User [{tbEmail.Text}] edited successfully!",
+                        "Confirmation",
+                        MessageBoxButtons.OK,
+                        MessageBoxIcon.Information
+                        );
+
+                        this.Close();
+                    }
+                    else
+                    {
+                        var newUser = new User
+                        {
+                            emailAddress = tbEmail.Text.Trim(),
+                            password = tbPassword.Text,
+                        };
+
+                        _db.Users.Add(newUser);
+                        _db.SaveChanges();
+
+                        MessageBox.Show($"New user [{tbEmail.Text}] added successfully!",
+                        "Confirmation",
+                        MessageBoxButtons.OK,
+                        MessageBoxIcon.Information
+                        );
+
+                        this.Close();
+                    }
+                    _manageUsers.PopulateGrid();
+                }
+                else
+                {
+                    MessageBox.Show("Please provide a valid email address.",
+                            "Warning!",
+                            MessageBoxButtons.OK,
+                            MessageBoxIcon.Stop
+                            );
+                }
             }
         }
     }

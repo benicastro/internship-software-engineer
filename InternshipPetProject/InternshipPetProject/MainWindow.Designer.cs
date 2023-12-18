@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainWindow));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.lblUser = new System.Windows.Forms.Label();
             this.lblWelcome = new System.Windows.Forms.Label();
             this.btnLogout = new System.Windows.Forms.Button();
@@ -42,7 +43,6 @@
             this.hardwareToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.softwareExtensionsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.supportToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.panel2 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -59,18 +59,26 @@
             this.panel1.Size = new System.Drawing.Size(960, 50);
             this.panel1.TabIndex = 0;
             // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.IndianRed;
+            this.panel2.ForeColor = System.Drawing.SystemColors.ActiveBorder;
+            this.panel2.Location = new System.Drawing.Point(0, 56);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(980, 84);
+            this.panel2.TabIndex = 8;
+            // 
             // lblUser
             // 
             this.lblUser.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lblUser.AutoSize = true;
-            this.lblUser.Font = new System.Drawing.Font("Segoe UI", 12.11215F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUser.Font = new System.Drawing.Font("Segoe UI", 10.76635F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblUser.ForeColor = System.Drawing.Color.Black;
-            this.lblUser.Location = new System.Drawing.Point(92, 12);
+            this.lblUser.Location = new System.Drawing.Point(98, 15);
             this.lblUser.Name = "lblUser";
-            this.lblUser.Size = new System.Drawing.Size(59, 25);
+            this.lblUser.Size = new System.Drawing.Size(0, 21);
             this.lblUser.TabIndex = 4;
-            this.lblUser.Text = "User!";
             // 
             // lblWelcome
             // 
@@ -97,6 +105,7 @@
             this.btnLogout.TabIndex = 2;
             this.btnLogout.Text = "LOGOUT";
             this.btnLogout.UseVisualStyleBackColor = false;
+            this.btnLogout.Click += new System.EventHandler(this.btnLogout_Click);
             // 
             // btnHome
             // 
@@ -179,15 +188,6 @@
             this.supportToolStripMenuItem.Size = new System.Drawing.Size(67, 21);
             this.supportToolStripMenuItem.Text = "Support";
             // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.IndianRed;
-            this.panel2.ForeColor = System.Drawing.SystemColors.ActiveBorder;
-            this.panel2.Location = new System.Drawing.Point(0, 56);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(980, 84);
-            this.panel2.TabIndex = 8;
-            // 
             // MainWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -201,6 +201,7 @@
             this.MaximizeBox = false;
             this.Name = "MainWindow";
             this.Text = "ServingIntel";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainWindow_FormClosing);
             this.Load += new System.EventHandler(this.MainWindow_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

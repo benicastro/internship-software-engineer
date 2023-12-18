@@ -30,11 +30,11 @@
         {
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.tbPassword2 = new System.Windows.Forms.TextBox();
-            this.tbPassword = new System.Windows.Forms.TextBox();
             this.tbEmail = new System.Windows.Forms.TextBox();
             this.lblPassword2 = new System.Windows.Forms.Label();
             this.lblPassword = new System.Windows.Forms.Label();
             this.lblEmail = new System.Windows.Forms.Label();
+            this.tbPassword = new System.Windows.Forms.TextBox();
             this.btnManage = new System.Windows.Forms.Button();
             this.btnCancel = new System.Windows.Forms.Button();
             this.lblId = new System.Windows.Forms.Label();
@@ -46,20 +46,20 @@
             this.tableLayoutPanel1.ColumnCount = 1;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel1.Controls.Add(this.tbPassword2, 0, 5);
-            this.tableLayoutPanel1.Controls.Add(this.tbPassword, 0, 3);
             this.tableLayoutPanel1.Controls.Add(this.tbEmail, 0, 1);
             this.tableLayoutPanel1.Controls.Add(this.lblPassword2, 0, 4);
             this.tableLayoutPanel1.Controls.Add(this.lblPassword, 0, 2);
             this.tableLayoutPanel1.Controls.Add(this.lblEmail, 0, 0);
+            this.tableLayoutPanel1.Controls.Add(this.tbPassword, 0, 3);
             this.tableLayoutPanel1.Location = new System.Drawing.Point(76, 81);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 6;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.94431F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 23.38902F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.944312F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 23.38902F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.944312F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 23.38902F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(304, 275);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
@@ -68,32 +68,21 @@
             this.tbPassword2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.tbPassword2.Font = new System.Drawing.Font("Segoe UI", 10.76635F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbPassword2.Location = new System.Drawing.Point(3, 228);
+            this.tbPassword2.Location = new System.Drawing.Point(3, 212);
             this.tbPassword2.Name = "tbPassword2";
             this.tbPassword2.PasswordChar = '●';
             this.tbPassword2.Size = new System.Drawing.Size(298, 29);
             this.tbPassword2.TabIndex = 10;
-            // 
-            // tbPassword
-            // 
-            this.tbPassword.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.tbPassword.Font = new System.Drawing.Font("Segoe UI", 10.76635F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbPassword.Location = new System.Drawing.Point(3, 138);
-            this.tbPassword.Name = "tbPassword";
-            this.tbPassword.PasswordChar = '●';
-            this.tbPassword.Size = new System.Drawing.Size(298, 29);
-            this.tbPassword.TabIndex = 8;
             // 
             // tbEmail
             // 
             this.tbEmail.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.tbEmail.Font = new System.Drawing.Font("Segoe UI", 10.76635F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbEmail.Location = new System.Drawing.Point(3, 48);
+            this.tbEmail.Location = new System.Drawing.Point(3, 30);
             this.tbEmail.Name = "tbEmail";
             this.tbEmail.Size = new System.Drawing.Size(298, 29);
-            this.tbEmail.TabIndex = 9;
+            this.tbEmail.TabIndex = 8;
             // 
             // lblPassword2
             // 
@@ -102,7 +91,7 @@
             this.lblPassword2.AutoSize = true;
             this.lblPassword2.Font = new System.Drawing.Font("Segoe UI", 10.76635F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblPassword2.ForeColor = System.Drawing.Color.White;
-            this.lblPassword2.Location = new System.Drawing.Point(3, 180);
+            this.lblPassword2.Location = new System.Drawing.Point(3, 182);
             this.lblPassword2.Name = "lblPassword2";
             this.lblPassword2.Size = new System.Drawing.Size(298, 21);
             this.lblPassword2.TabIndex = 9;
@@ -115,7 +104,7 @@
             this.lblPassword.AutoSize = true;
             this.lblPassword.Font = new System.Drawing.Font("Segoe UI", 10.76635F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblPassword.ForeColor = System.Drawing.Color.White;
-            this.lblPassword.Location = new System.Drawing.Point(3, 90);
+            this.lblPassword.Location = new System.Drawing.Point(3, 91);
             this.lblPassword.Name = "lblPassword";
             this.lblPassword.Size = new System.Drawing.Size(298, 21);
             this.lblPassword.TabIndex = 8;
@@ -133,6 +122,17 @@
             this.lblEmail.Size = new System.Drawing.Size(298, 21);
             this.lblEmail.TabIndex = 7;
             this.lblEmail.Text = "Email Address";
+            // 
+            // tbPassword
+            // 
+            this.tbPassword.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.tbPassword.Font = new System.Drawing.Font("Segoe UI", 10.76635F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbPassword.Location = new System.Drawing.Point(3, 121);
+            this.tbPassword.Name = "tbPassword";
+            this.tbPassword.PasswordChar = '●';
+            this.tbPassword.Size = new System.Drawing.Size(298, 29);
+            this.tbPassword.TabIndex = 9;
             // 
             // btnManage
             // 
@@ -181,7 +181,7 @@
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnManage);
             this.Controls.Add(this.tableLayoutPanel1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "AddEditUsers";
             this.Text = "Add/Edit Users";
             this.tableLayoutPanel1.ResumeLayout(false);
@@ -198,8 +198,8 @@
         private System.Windows.Forms.Label lblPassword2;
         private System.Windows.Forms.Label lblPassword;
         private System.Windows.Forms.Label lblEmail;
-        private System.Windows.Forms.TextBox tbPassword;
         private System.Windows.Forms.TextBox tbEmail;
+        private System.Windows.Forms.TextBox tbPassword;
         private System.Windows.Forms.TextBox tbPassword2;
         private System.Windows.Forms.Button btnCancel;
         private System.Windows.Forms.Label lblId;

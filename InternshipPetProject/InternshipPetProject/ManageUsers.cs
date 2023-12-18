@@ -42,13 +42,13 @@ namespace InternshipPetProject
             {
                 var id = (int)dgvUsersList.SelectedRows[0].Cells["Id"].Value;
                 var user = _db.Users.FirstOrDefault(q => q.id == id);
-                var addEditUsers = new AddEditUsers(user);
-                addEditUsers.Show();
+                var addEditUsers = new AddEditUsers(this, user);
+                addEditUsers.ShowDialog();
                 PopulateGrid();
             }
             catch (Exception)
             {
-                MessageBox.Show($"Please select an entry to be edited.", 
+                MessageBox.Show($"Please ensure that you selected a valid record to edit.", 
                     "Attention!", 
                     MessageBoxButtons.OK, 
                     MessageBoxIcon.Information
@@ -62,14 +62,23 @@ namespace InternshipPetProject
             {
                 var id = (int)dgvUsersList.SelectedRows[0].Cells["Id"].Value;
                 var user = _db.Users.FirstOrDefault(q => q.id == id);
-                _db.Users.Remove(user);
-                _db.SaveChanges();
 
-                PopulateGrid();
+                DialogResult dr = MessageBox.Show("Are you sure you want to delete this user record?",
+                    "Delete User Record",
+                    MessageBoxButtons.YesNo,
+                    MessageBoxIcon.Warning
+                    );
+
+                if ( dr == DialogResult.Yes )
+                {
+                    _db.Users.Remove(user);
+                    _db.SaveChanges();
+                    PopulateGrid();
+                }   
             }
             catch (Exception)
             {
-                MessageBox.Show($"Please select an entry to be deleted.", 
+                MessageBox.Show($"Please ensure that you selected a valid record to delete.", 
                     "Attention!",
                     MessageBoxButtons.OK,
                     MessageBoxIcon.Information
@@ -80,18 +89,9 @@ namespace InternshipPetProject
 
         private void btnADD_Click(object sender, EventArgs e)
         {
-            try
-            {
-                var addEditUsers = new AddEditUsers();
-                //addEditUsers.MdiParent = this.MdiParent;
-                addEditUsers.Show();
-                PopulateGrid();
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show($"Error: {ex.Message}");
-            }
-
+            var addEditUsers = new AddEditUsers(this);
+            //addEditUsers.MdiParent = this.MdiParent;
+            addEditUsers.ShowDialog();
         }
 
         public void PopulateGrid()
