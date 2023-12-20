@@ -16,3 +16,4 @@ C:\Users\bened\Desktop\internship\InternshipPetProject\InternshipPetProject\obj\
 C:\Users\bened\Desktop\internship\InternshipPetProject\InternshipPetProject\obj\Debug\InternshipPetProject.Login.resources
 C:\Users\bened\Desktop\internship\InternshipPetProject\InternshipPetProject\obj\Debug\InternshipPetProject.ManageUsers.resources
 C:\Users\bened\Desktop\internship\InternshipPetProject\InternshipPetProject\obj\Debug\InternshipPetProject.AddEditUsers.resources
+C:\Users\bened\Desktop\internship\InternshipPetProject\InternshipPetProject\obj\Debug\InternshipPetProject.Home.resources

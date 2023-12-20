@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace InternshipPetProject
@@ -24,22 +17,25 @@ namespace InternshipPetProject
             InitializeComponent();
             _login = login;
             _db = new ProjectUsersEntities();
-            lblUser.Text = $"{_login.getUser()}!";
+            lblUser.Text = $"{_login.getUser()} !";
         }
 
         private void MainWindow_Load(object sender, EventArgs e)
         {
-            
+            var home = new Home();
+            home.MdiParent = this;
+            home.Show();
         }
 
         private void btnHome_Click(object sender, EventArgs e)
         {
-            if (!Utils.FormIsOpen("ManageUsers"))
+            if (!Utils.FormIsOpen("Home"))
             {
-                var manageUsers = new ManageUsers();
-                manageUsers.MdiParent = this;
-
-                manageUsers.Show();
+                this.ActiveMdiChild.Close();
+                var home = new Home();
+                home.MdiParent = this;
+                home.Dock = DockStyle.Fill;
+                home.Show();
             }
         }
 
@@ -58,6 +54,30 @@ namespace InternshipPetProject
         private void MainWindow_FormClosing(object sender, FormClosingEventArgs e)
         {
             _login.Close();
+        }
+
+        private void usersToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (!Utils.FormIsOpen("ManageUsers"))
+            {
+                this.ActiveMdiChild.Close();
+                var manageUsers = new ManageUsers();
+                manageUsers.MdiParent = this;
+                manageUsers.Dock = DockStyle.Fill;
+                manageUsers.Show();
+            }
+        }
+
+        private void homeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (!Utils.FormIsOpen("Home"))
+            {
+                this.ActiveMdiChild.Close();
+                var home = new Home();
+                home.MdiParent = this;
+                home.Dock = DockStyle.Fill;
+                home.Show();
+            }
         }
     }
 }

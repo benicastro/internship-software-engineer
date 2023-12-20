@@ -53,10 +53,10 @@ namespace InternshipPetProject
         private void btnManage_Click(object sender, EventArgs e)
         {
 
-            if (tbPassword.Text != tbPassword2.Text)
+            if (tbPassword.Text != tbPassword2.Text || String.IsNullOrEmpty(tbPassword.Text))
             {
-                MessageBox.Show("Passwords DO NOT match!",
-                        "Warning!",
+                MessageBox.Show("Please provide MATCHING passwords.",
+                        "Error!",
                         MessageBoxButtons.OK,
                         MessageBoxIcon.Stop
                         );
@@ -65,51 +65,77 @@ namespace InternshipPetProject
             {
                 if (Utils.IsValidEmail(tbEmail.Text) && Utils.IsValidEmailDomain(tbEmail.Text))
                 {
+                    bool alreadyExists = _db.Users.Any(q => q.emailAddress == tbEmail.Text.Trim());
                     if (isEditMode)
                     {
                         var id = int.Parse(lblId.Text);
                         var user = _db.Users.FirstOrDefault(q => q.id == id);
-                        user.emailAddress = tbEmail.Text.Trim();
-                        user.password = tbPassword.Text;
+                        
 
-                        _db.SaveChanges();
+                        if (alreadyExists && user.emailAddress != tbEmail.Text.Trim())
+                        {
+                            MessageBox.Show("Email address already in use. Please provide a new one.",
+                            "Error!",
+                            MessageBoxButtons.OK,
+                            MessageBoxIcon.Stop
+                            );
+                        }
+                        else
+                        {
+                            user.emailAddress = tbEmail.Text.Trim();
+                            user.password = Utils.HashPassword(tbPassword.Text);
 
-                        MessageBox.Show($"User [{tbEmail.Text}] edited successfully!",
-                        "Confirmation",
-                        MessageBoxButtons.OK,
-                        MessageBoxIcon.Information
-                        );
+                            _db.SaveChanges();
 
-                        this.Close();
+                            MessageBox.Show($"User [{tbEmail.Text}] edited successfully!",
+                            "Success!",
+                            MessageBoxButtons.OK,
+                            MessageBoxIcon.Information
+                            );
+
+                            this.Close();
+                        }
                     }
                     else
                     {
-                        var newUser = new User
+                        if (alreadyExists)
                         {
-                            emailAddress = tbEmail.Text.Trim(),
-                            password = tbPassword.Text,
-                        };
+                            MessageBox.Show("Email address already in use. Please provide a new one.",
+                            "Error!",
+                            MessageBoxButtons.OK,
+                            MessageBoxIcon.Stop
+                            );
+                        }
+                        else
+                        {
+                            var newUser = new User
+                            {
+                                emailAddress = tbEmail.Text.Trim(),
+                                password = Utils.HashPassword(tbPassword.Text),
+                            };
 
-                        _db.Users.Add(newUser);
-                        _db.SaveChanges();
+                            _db.Users.Add(newUser);
+                            _db.SaveChanges();
 
-                        MessageBox.Show($"New user [{tbEmail.Text}] added successfully!",
-                        "Confirmation",
-                        MessageBoxButtons.OK,
-                        MessageBoxIcon.Information
-                        );
+                            MessageBox.Show($"New user [{tbEmail.Text}] added successfully!",
+                            "Success!",
+                            MessageBoxButtons.OK,
+                            MessageBoxIcon.Information
+                            );
 
-                        this.Close();
+                            this.Close();
+                        }
                     }
                     _manageUsers.PopulateGrid();
                 }
                 else
                 {
                     MessageBox.Show("Please provide a valid email address.",
-                            "Warning!",
+                            "Error!",
                             MessageBoxButtons.OK,
                             MessageBoxIcon.Stop
                             );
+                    tbEmail.Focus();
                 }
             }
         }

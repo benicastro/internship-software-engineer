@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Net;
+using System.Security.Cryptography;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
@@ -34,12 +35,13 @@ namespace InternshipPetProject
             {
                 var email = getUser();
                 var password = tbPassword.Text;
+                var hashedPassword = Utils.HashPassword(password);
 
-                var user = _db.Users.FirstOrDefault(q => q.emailAddress == email && q.password == password);
+                var user = _db.Users.FirstOrDefault(q => q.emailAddress == email && q.password == hashedPassword);
                 if (user == null)
                 {
                     MessageBox.Show("Please provide valid credentials.",
-                            "Warning!",
+                            "Error!",
                             MessageBoxButtons.OK,
                             MessageBoxIcon.Stop
                             );
