@@ -4,9 +4,10 @@
     <EntitySetMapping Name="Users">
       <EntityTypeMapping TypeName="ProjectUsersModel.User">
         <MappingFragment StoreEntitySet="Users">
-          <ScalarProperty Name="id" ColumnName="id" />
-          <ScalarProperty Name="emailAddress" ColumnName="emailAddress" />
+          <ScalarProperty Name="isLoggedIn" ColumnName="isLoggedIn" />
           <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="emailAddress" ColumnName="emailAddress" />
+          <ScalarProperty Name="id" ColumnName="id" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

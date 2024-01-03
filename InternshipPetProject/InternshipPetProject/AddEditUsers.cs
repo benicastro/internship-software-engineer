@@ -112,6 +112,7 @@ namespace InternshipPetProject
                             {
                                 emailAddress = tbEmail.Text.Trim(),
                                 password = Utils.HashPassword(tbPassword.Text),
+                                isLoggedIn = false
                             };
 
                             _db.Users.Add(newUser);

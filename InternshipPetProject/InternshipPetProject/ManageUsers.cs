@@ -13,10 +13,20 @@ namespace InternshipPetProject
     public partial class ManageUsers : Form
     {
         private readonly ProjectUsersEntities _db;
+        private Login _login;
+        private MainWindow _mainWindow;
         public ManageUsers()
         {
             InitializeComponent();
             _db = new ProjectUsersEntities();
+        }
+
+        public ManageUsers(Login login, MainWindow mainWindow)
+        {
+            InitializeComponent();
+            _db = new ProjectUsersEntities();
+            _login = login;
+            this._mainWindow = mainWindow;
         }
 
         private void ManageUsers_Load(object sender, EventArgs e)
@@ -44,7 +54,6 @@ namespace InternshipPetProject
                 var user = _db.Users.FirstOrDefault(q => q.id == id);
                 var addEditUsers = new AddEditUsers(this, user);
                 addEditUsers.ShowDialog();
-                PopulateGrid();
             }
             catch (Exception)
             {
@@ -54,6 +63,7 @@ namespace InternshipPetProject
                     MessageBoxIcon.Information
                     );
             }
+            _mainWindow.UpdateUser();
         }
 
         private void btnDelete_Click(object sender, EventArgs e)
@@ -62,6 +72,8 @@ namespace InternshipPetProject
             {
                 var id = (int)dgvUsersList.SelectedRows[0].Cells["Id"].Value;
                 var user = _db.Users.FirstOrDefault(q => q.id == id);
+
+
 
                 DialogResult dr = MessageBox.Show("Are you sure you want to delete this user record?",
                     "Delete User Record",
@@ -73,7 +85,6 @@ namespace InternshipPetProject
                 {
                     _db.Users.Remove(user);
                     _db.SaveChanges();
-                    PopulateGrid();
                 }   
             }
             catch (Exception)

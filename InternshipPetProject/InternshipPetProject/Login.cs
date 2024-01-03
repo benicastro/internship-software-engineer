@@ -31,37 +31,54 @@ namespace InternshipPetProject
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            try
+            bool alreadyLoggedIn = _db.Users.Any(q => q.isLoggedIn == true);
+            //bool alreadyLoggedIn = false;
+            if (alreadyLoggedIn)
             {
-                var email = getUser();
-                var password = tbPassword.Text;
-                var hashedPassword = Utils.HashPassword(password);
-
-                var user = _db.Users.FirstOrDefault(q => q.emailAddress == email && q.password == hashedPassword);
-                if (user == null)
-                {
-                    MessageBox.Show("Please provide valid credentials.",
+                MessageBox.Show("Someone is still logged in.",
                             "Error!",
                             MessageBoxButtons.OK,
                             MessageBoxIcon.Stop
                             );
-                }
-                else 
-                {
-                    var mainWindow = new MainWindow(this);
-                    mainWindow.Show();
-                    Hide();
-                }
             }
-            catch (Exception)
+            else
             {
-                MessageBox.Show("Something went wrong. Please try again.");
+                try
+                {
+                    var email = tbEmail.Text.Trim();
+                    var password = tbPassword.Text;
+                    var hashedPassword = Utils.HashPassword(password);
+
+                    var user = _db.Users.FirstOrDefault(q => q.emailAddress == email && q.password == hashedPassword);
+                    if (user == null)
+                    {
+                        MessageBox.Show("Please provide valid credentials.",
+                                "Error!",
+                                MessageBoxButtons.OK,
+                                MessageBoxIcon.Stop
+                                );
+                    }
+                    else
+                    {
+                        user.isLoggedIn = true;
+                        lblId.Text = user.id.ToString();
+                        _db.SaveChanges();
+                        var mainWindow = new MainWindow(this);
+                        mainWindow.Show();
+                        Hide();
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"Something went wrong {ex.Message}. Please try again.");
+                }
             }
         }
-        public string getUser()
+        public int getUserId()
         {
-            var email = tbEmail.Text.Trim();
-            return email;
+            //int userId = int.Parse(lblId.Text);
+            //var userLogged = _db.Users.FirstOrDefault(q => q.id == userId);
+            return int.Parse(lblId.Text);
         }
     }
 }

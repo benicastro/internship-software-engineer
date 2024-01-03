@@ -17,5 +17,6 @@ namespace InternshipPetProject
         public int id { get; set; }
         public string emailAddress { get; set; }
         public string password { get; set; }
+        public Nullable<bool> isLoggedIn { get; set; }
     }
 }

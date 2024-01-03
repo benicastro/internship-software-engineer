@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Linq;
+using System.Reflection.Emit;
 using System.Windows.Forms;
 
 namespace InternshipPetProject
@@ -17,7 +19,7 @@ namespace InternshipPetProject
             InitializeComponent();
             _login = login;
             _db = new ProjectUsersEntities();
-            lblUser.Text = $"{_login.getUser()} !";
+            UpdateUser();
         }
 
         private void MainWindow_Load(object sender, EventArgs e)
@@ -41,6 +43,9 @@ namespace InternshipPetProject
 
         private void btnLogout_Click(object sender, EventArgs e)
         {
+            LogOffUser();
+            _db.SaveChanges();
+
             System.Threading.Thread thread = new System.Threading.Thread(new System.Threading.ThreadStart(OpenLoginForm));
             thread.Start();
             this.Close();
@@ -53,6 +58,7 @@ namespace InternshipPetProject
 
         private void MainWindow_FormClosing(object sender, FormClosingEventArgs e)
         {
+            LogOffUser();
             _login.Close();
         }
 
@@ -61,13 +67,12 @@ namespace InternshipPetProject
             if (!Utils.FormIsOpen("ManageUsers"))
             {
                 this.ActiveMdiChild.Close();
-                var manageUsers = new ManageUsers();
+                var manageUsers = new ManageUsers(_login, this);
                 manageUsers.MdiParent = this;
                 manageUsers.Dock = DockStyle.Fill;
                 manageUsers.Show();
             }
         }
-
         private void homeToolStripMenuItem_Click(object sender, EventArgs e)
         {
             if (!Utils.FormIsOpen("Home"))
@@ -77,6 +82,39 @@ namespace InternshipPetProject
                 home.MdiParent = this;
                 home.Dock = DockStyle.Fill;
                 home.Show();
+            }
+        }
+
+        public void UpdateUser()
+        {
+            this.Refresh();
+            var userId = _login.getUserId();
+            //var user = _db.Users.FirstOrDefault(q => q.id == userId);
+            var users = _db.Users.
+                Select(q => new
+                {
+                    Email = q.emailAddress,
+                    Id = q.id,
+                })
+                .ToList();
+            var user = users.FirstOrDefault(q => q.Id == userId);
+            var email = user.Email;
+            lblUser.Text = $"{email} !";
+            this.Refresh();
+        }
+
+        private void LogOffUser()
+        {
+            try
+            {
+                var userId = _login.getUserId();
+                var user = _db.Users.FirstOrDefault(q => q.id == userId);
+                user.isLoggedIn = false;
+                _db.SaveChanges();
+            }
+            catch (Exception)
+            {
+                
             }
         }
     }
